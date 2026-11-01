@@ -1,0 +1,11 @@
+class,test,train,val
+Alopecia Areata,120,960,120
+Contact Dermatitis,120,960,120
+Folliculitis,120,960,120
+Head Lice,120,960,120
+Lichen Planus,120,960,120
+Male Pattern Baldness,120,960,120
+Psoriasis,120,960,120
+Seborrheic Dermatitis,120,960,120
+Telogen Effluvium,120,960,120
+Tinea Capitis,120,960,120
