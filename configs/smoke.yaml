@@ -1,0 +1,14 @@
+experiment: scalp-cv-smoke
+run_name: smoke
+model: mobilenetv3_large_100
+img_size: 224
+batch_size: 16
+epochs: 2
+frozen_epochs: 1
+lr_head: 1.0e-3
+lr_backbone: 1.0e-4
+weight_decay: 1.0e-2
+label_smoothing: 0.1
+patience: 6
+max_batches: 5
+num_workers: 0

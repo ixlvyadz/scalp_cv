@@ -1,0 +1,4 @@
+similarity to train,images,sim range,accuracy,macro-F1
+lowest third,397,0.758-0.892,0.9622166246851386,0.9622763108645461
+middle third,396,0.892-0.910,1.0,1.0
+highest third,396,0.910-0.953,1.0,1.0

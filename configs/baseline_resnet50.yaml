@@ -1,0 +1,12 @@
+experiment: scalp-cv
+run_name: resnet50
+model: resnet50     # timm name
+img_size: 224
+batch_size: 32
+epochs: 25
+frozen_epochs: 3                 # train only the head first
+lr_head: 1.0e-3
+lr_backbone: 1.0e-4
+weight_decay: 1.0e-2
+label_smoothing: 0.1
+patience: 6                      # early stopping on val macro-F1

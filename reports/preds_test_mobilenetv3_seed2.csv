@@ -1,0 +1,1190 @@
+path,label,pred,conf,group,nn_sim
+data/train/Alopecia Areata/alopecia_areata_0003.jpg,0,0,0.9691496,322,0.8697336912155151
+data/train/Alopecia Areata/alopecia_areata_0005.jpg,0,0,0.8567089,869,0.946087121963501
+data/train/Alopecia Areata/alopecia_areata_0019.jpg,0,0,0.9620472,440,0.8894610404968262
+data/train/Alopecia Areata/alopecia_areata_0027.jpg,0,0,0.88259804,320,0.8865984678268433
+data/train/Alopecia Areata/alopecia_areata_0038.jpg,0,0,0.9314728,322,0.8507998585700989
+data/train/Alopecia Areata/alopecia_areata_0048.jpg,0,0,0.93203783,322,0.8521707057952881
+data/train/Alopecia Areata/alopecia_areata_0102.jpg,0,0,0.97982234,440,0.849174976348877
+data/train/Alopecia Areata/alopecia_areata_0154.jpg,0,0,0.9257168,496,0.8968737721443176
+data/train/Alopecia Areata/alopecia_areata_0155.jpg,0,0,0.9381416,410,0.8980410695075989
+data/train/Alopecia Areata/alopecia_areata_0188.jpg,0,0,0.9061288,1527,0.9194711446762084
+data/train/Alopecia Areata/alopecia_areata_0193.jpg,0,0,0.8620685,320,0.8998228311538696
+data/train/Alopecia Areata/alopecia_areata_0197.jpg,0,0,0.94812113,440,0.8631004095077515
+data/train/Alopecia Areata/alopecia_areata_0198.jpg,0,0,0.9635421,322,0.8920879364013672
+data/train/Alopecia Areata/alopecia_areata_0207.jpg,0,0,0.9511979,496,0.9019955992698668
+data/train/Alopecia Areata/alopecia_areata_0210.jpg,0,0,0.9577472,440,0.8374258875846863
+data/train/Alopecia Areata/alopecia_areata_0221.jpg,0,0,0.9335225,1477,0.8926960229873657
+data/train/Alopecia Areata/alopecia_areata_0246.jpg,0,0,0.92134786,440,0.8816772699356079
+data/train/Alopecia Areata/alopecia_areata_0248.jpg,0,0,0.8524756,410,0.9062042236328124
+data/train/Alopecia Areata/alopecia_areata_0264.jpg,0,0,0.8436997,671,0.8941546082496643
+data/train/Alopecia Areata/alopecia_areata_0267.jpg,0,0,0.8803602,496,0.8831716775894165
+data/train/Alopecia Areata/alopecia_areata_0284.jpg,0,0,0.94852287,346,0.9316061735153198
+data/train/Alopecia Areata/alopecia_areata_0287.jpg,0,0,0.9624294,440,0.847274124622345
+data/train/Alopecia Areata/alopecia_areata_0311.jpg,0,0,0.9230621,671,0.8975778818130493
+data/train/Alopecia Areata/alopecia_areata_0318.jpg,0,0,0.5432732,563,0.9037817716598512
+data/train/Alopecia Areata/alopecia_areata_0331.jpg,0,0,0.8967691,496,0.8923239707946777
+data/train/Alopecia Areata/alopecia_areata_0339.jpg,0,0,0.9646112,322,0.8741101026535034
+data/train/Alopecia Areata/alopecia_areata_0372.jpg,0,0,0.9869005,440,0.890099287033081
+data/train/Alopecia Areata/alopecia_areata_0385.jpg,0,0,0.88319284,781,0.909887433052063
+data/train/Alopecia Areata/alopecia_areata_0386.jpg,0,0,0.9016462,496,0.9006108045578003
+data/train/Alopecia Areata/alopecia_areata_0387.jpg,0,0,0.9090693,322,0.812989354133606
+data/train/Alopecia Areata/alopecia_areata_0402.jpg,0,0,0.96031195,410,0.901966392993927
+data/train/Alopecia Areata/alopecia_areata_0417.jpg,0,0,0.94343895,322,0.8460880517959595
+data/train/Alopecia Areata/alopecia_areata_0429.jpg,0,0,0.94882065,322,0.8601897954940796
+data/train/Alopecia Areata/alopecia_areata_0449.jpg,0,0,0.9593059,322,0.8144149780273438
+data/train/Alopecia Areata/alopecia_areata_0535.jpg,0,0,0.96007895,959,0.9277382493019104
+data/train/Alopecia Areata/alopecia_areata_0581.jpg,0,0,0.9382077,320,0.8936585187911987
+data/train/Alopecia Areata/alopecia_areata_0599.jpg,0,0,0.8650153,320,0.9021337628364564
+data/train/Alopecia Areata/alopecia_areata_0625.jpg,0,0,0.8860464,496,0.8770373463630676
+data/train/Alopecia Areata/alopecia_areata_0634.jpg,0,0,0.9099171,496,0.9063451290130616
+data/train/Alopecia Areata/alopecia_areata_0654.jpg,0,0,0.9149467,320,0.903085708618164
+data/train/Alopecia Areata/alopecia_areata_0657.jpg,0,0,0.8406231,320,0.9055540561676024
+data/train/Alopecia Areata/alopecia_areata_0662.jpg,0,0,0.8710783,320,0.8943233489990234
+data/train/Alopecia Areata/alopecia_areata_0674.jpg,0,0,0.8643815,1084,0.9291723966598512
+data/train/Alopecia Areata/alopecia_areata_0675.jpg,0,0,0.8449466,320,0.8984563946723938
+data/train/Alopecia Areata/alopecia_areata_0680.jpg,0,0,0.93520766,440,0.8647274374961853
+data/train/Alopecia Areata/alopecia_areata_0683.jpg,0,0,0.96664196,440,0.8861194849014282
+data/train/Alopecia Areata/alopecia_areata_0689.jpg,0,0,0.9480623,322,0.8634809255599976
+data/train/Alopecia Areata/alopecia_areata_0694.jpg,0,0,0.9666216,320,0.9075796008110046
+data/train/Alopecia Areata/alopecia_areata_0704.jpg,0,0,0.93607366,496,0.9001482129096985
+data/train/Alopecia Areata/alopecia_areata_0718.jpg,0,0,0.9178825,496,0.906008005142212
+data/train/Alopecia Areata/alopecia_areata_0725.jpg,0,0,0.91043246,496,0.8993586301803589
+data/train/Alopecia Areata/alopecia_areata_0731.jpg,0,0,0.9638515,322,0.8310807943344116
+data/train/Alopecia Areata/alopecia_areata_0736.jpg,0,0,0.9325482,1454,0.9187971353530884
+data/train/Alopecia Areata/alopecia_areata_0742.jpg,0,0,0.8854971,320,0.8904924392700195
+data/train/Alopecia Areata/alopecia_areata_0772.jpg,0,0,0.8390165,496,0.8745212554931641
+data/train/Alopecia Areata/alopecia_areata_0773.jpg,0,0,0.8919665,320,0.8889738321304321
+data/train/Alopecia Areata/alopecia_areata_0801.jpg,0,0,0.9594122,496,0.9012402296066284
+data/train/Alopecia Areata/alopecia_areata_0815.jpg,0,0,0.9371386,496,0.8952760696411133
+data/train/Alopecia Areata/alopecia_areata_0830.jpg,0,0,0.930472,410,0.9174221754074096
+data/train/Alopecia Areata/alopecia_areata_0836.jpg,0,0,0.8969328,496,0.902244746685028
+data/train/Alopecia Areata/alopecia_areata_0904.jpg,0,0,0.84995383,320,0.8879552483558655
+data/train/Alopecia Areata/alopecia_areata_0921.jpg,0,0,0.9673808,440,0.9012986421585084
+data/train/Alopecia Areata/alopecia_areata_0925.jpg,0,0,0.81635153,496,0.8972898125648499
+data/train/Alopecia Areata/alopecia_areata_0993.jpg,0,0,0.9554623,322,0.823339581489563
+data/train/Alopecia Areata/alopecia_areata_1018.jpg,0,0,0.8437158,410,0.8816797733306885
+data/train/Alopecia Areata/alopecia_areata_1029.jpg,0,0,0.89288193,320,0.8998312950134277
+data/train/Alopecia Areata/alopecia_areata_1038.jpg,0,0,0.9736727,440,0.8798450231552124
+data/train/Alopecia Areata/alopecia_areata_1040.jpg,0,0,0.86523867,1612,0.9121410846710204
+data/train/Alopecia Areata/alopecia_areata_1048.jpg,0,0,0.91970164,1609,0.9208809733390808
+data/train/Alopecia Areata/alopecia_areata_1098.jpg,0,0,0.9820197,440,0.9033434391021729
+data/train/Alopecia Areata/alopecia_areata_1114.jpg,0,0,0.95669913,322,0.8355909585952759
+data/train/Alopecia Areata/alopecia_areata_1123.jpg,0,0,0.91623384,496,0.8986138105392456
+data/train/Alopecia Areata/alopecia_areata_1155.jpg,0,0,0.9711458,410,0.9136908650398254
+data/train/Alopecia Areata/alopecia_areata_1160.jpg,0,0,0.8336313,496,0.9126424789428712
+data/train/Alopecia Areata/alopecia_areata_1163.jpg,0,0,0.7671768,320,0.8981543779373169
+data/train/Alopecia Areata/alopecia_areata_1182.jpg,0,0,0.8967719,496,0.8851433396339417
+data/train/Contact Dermatitis/contact_dermatitis_0007.jpg,1,1,0.69898856,866,0.8969535827636719
+data/train/Contact Dermatitis/contact_dermatitis_0009.jpg,1,1,0.94736207,230,0.9123004078865052
+data/train/Contact Dermatitis/contact_dermatitis_0012.jpg,1,1,0.808152,397,0.9022549390792848
+data/train/Contact Dermatitis/contact_dermatitis_0017.jpg,1,1,0.92049813,297,0.909343421459198
+data/train/Contact Dermatitis/contact_dermatitis_0028.jpg,1,1,0.81736904,866,0.9177783727645874
+data/train/Contact Dermatitis/contact_dermatitis_0042.jpg,1,1,0.69846064,1199,0.8385583162307739
+data/train/Contact Dermatitis/contact_dermatitis_0057.jpg,1,1,0.8542041,974,0.946727693080902
+data/train/Contact Dermatitis/contact_dermatitis_0060.jpg,1,1,0.97044367,1037,0.9177126288414
+data/train/Contact Dermatitis/contact_dermatitis_0063.jpg,1,1,0.735891,1199,0.8111709356307983
+data/train/Contact Dermatitis/contact_dermatitis_0082.jpg,1,1,0.9291666,827,0.910714030265808
+data/train/Contact Dermatitis/contact_dermatitis_0093.jpg,1,1,0.93532634,352,0.918658435344696
+data/train/Contact Dermatitis/contact_dermatitis_0130.jpg,1,1,0.95931554,827,0.9105293154716492
+data/train/Contact Dermatitis/contact_dermatitis_0168.jpg,1,1,0.9263358,680,0.914159655570984
+data/train/Contact Dermatitis/contact_dermatitis_0173.jpg,1,1,0.9254069,297,0.8970428705215454
+data/train/Contact Dermatitis/contact_dermatitis_0181.jpg,1,1,0.937356,297,0.9163933992385864
+data/train/Contact Dermatitis/contact_dermatitis_0182.jpg,1,1,0.944343,340,0.9159702062606812
+data/train/Contact Dermatitis/contact_dermatitis_0186.jpg,1,1,0.92777205,696,0.904838800430298
+data/train/Contact Dermatitis/contact_dermatitis_0196.jpg,1,1,0.9618941,509,0.9019001722335817
+data/train/Contact Dermatitis/contact_dermatitis_0223.jpg,1,1,0.8575069,397,0.922987937927246
+data/train/Contact Dermatitis/contact_dermatitis_0234.jpg,1,1,0.9688729,509,0.9161568880081176
+data/train/Contact Dermatitis/contact_dermatitis_0275.jpg,1,1,0.93450695,1037,0.9220294952392578
+data/train/Contact Dermatitis/contact_dermatitis_0283.jpg,1,1,0.7714172,492,0.9073607325553894
+data/train/Contact Dermatitis/contact_dermatitis_0285.jpg,1,1,0.93443394,561,0.917760729789734
+data/train/Contact Dermatitis/contact_dermatitis_0292.jpg,1,1,0.85068375,230,0.910274863243103
+data/train/Contact Dermatitis/contact_dermatitis_0318.jpg,1,1,0.9428819,543,0.8932292461395264
+data/train/Contact Dermatitis/contact_dermatitis_0360.jpg,1,1,0.769896,483,0.8896911144256592
+data/train/Contact Dermatitis/contact_dermatitis_0382.jpg,1,1,0.9333262,340,0.9153218269348145
+data/train/Contact Dermatitis/contact_dermatitis_0392.jpg,1,1,0.9052524,492,0.9278069734573364
+data/train/Contact Dermatitis/contact_dermatitis_0402.jpg,1,1,0.90778285,1037,0.9523133039474488
+data/train/Contact Dermatitis/contact_dermatitis_0434.jpg,1,1,0.7456186,561,0.8987792730331421
+data/train/Contact Dermatitis/contact_dermatitis_0435.jpg,1,1,0.9271407,543,0.9055451154708862
+data/train/Contact Dermatitis/contact_dermatitis_0452.jpg,1,1,0.93642247,1393,0.899667501449585
+data/train/Contact Dermatitis/contact_dermatitis_0453.jpg,1,1,0.91154134,1276,0.934259295463562
+data/train/Contact Dermatitis/contact_dermatitis_0465.jpg,1,1,0.8267274,619,0.9171500205993652
+data/train/Contact Dermatitis/contact_dermatitis_0476.jpg,1,1,0.8745488,619,0.9181159734725952
+data/train/Contact Dermatitis/contact_dermatitis_0499.jpg,1,1,0.8393857,619,0.9201959371566772
+data/train/Contact Dermatitis/contact_dermatitis_0507.jpg,1,1,0.91653216,619,0.9134840965270996
+data/train/Contact Dermatitis/contact_dermatitis_0513.jpg,1,1,0.9385522,557,0.8898292779922485
+data/train/Contact Dermatitis/contact_dermatitis_0515.jpg,1,1,0.80036426,561,0.9181708097457886
+data/train/Contact Dermatitis/contact_dermatitis_0532.jpg,1,1,0.9452612,561,0.9129138588905334
+data/train/Contact Dermatitis/contact_dermatitis_0534.jpg,1,1,0.8305329,230,0.9155884385108948
+data/train/Contact Dermatitis/contact_dermatitis_0535.jpg,1,1,0.86254364,492,0.9195865392684937
+data/train/Contact Dermatitis/contact_dermatitis_0583.jpg,1,1,0.82859355,850,0.9054686427116394
+data/train/Contact Dermatitis/contact_dermatitis_0587.jpg,1,1,0.95910496,340,0.9170358180999756
+data/train/Contact Dermatitis/contact_dermatitis_0609.jpg,1,1,0.9420368,383,0.9055556058883668
+data/train/Contact Dermatitis/contact_dermatitis_0617.jpg,1,1,0.9420832,492,0.9310675859451294
+data/train/Contact Dermatitis/contact_dermatitis_0623.jpg,1,1,0.9419848,297,0.9148465394973756
+data/train/Contact Dermatitis/contact_dermatitis_0639.jpg,1,1,0.8766463,352,0.9192312955856324
+data/train/Contact Dermatitis/contact_dermatitis_0699.jpg,1,1,0.93727434,352,0.8901585340499878
+data/train/Contact Dermatitis/contact_dermatitis_0717.jpg,1,1,0.93126947,230,0.9177156686782836
+data/train/Contact Dermatitis/contact_dermatitis_0726.jpg,1,1,0.95536107,352,0.9147086143493652
+data/train/Contact Dermatitis/contact_dermatitis_0732.jpg,1,1,0.73455036,827,0.912409484386444
+data/train/Contact Dermatitis/contact_dermatitis_0734.jpg,1,1,0.82255465,202,0.8828111886978149
+data/train/Contact Dermatitis/contact_dermatitis_0770.jpg,1,1,0.8547465,850,0.9034938216209412
+data/train/Contact Dermatitis/contact_dermatitis_0819.jpg,1,1,0.9068573,383,0.8868622779846191
+data/train/Contact Dermatitis/contact_dermatitis_0837.jpg,1,1,0.9679446,297,0.913949728012085
+data/train/Contact Dermatitis/contact_dermatitis_0839.jpg,1,1,0.93674326,230,0.923365354537964
+data/train/Contact Dermatitis/contact_dermatitis_0843.jpg,1,1,0.97540104,509,0.9040907621383668
+data/train/Contact Dermatitis/contact_dermatitis_0867.jpg,1,1,0.9257221,202,0.8813166618347168
+data/train/Contact Dermatitis/contact_dermatitis_0870.jpg,1,1,0.89614165,557,0.914247751235962
+data/train/Contact Dermatitis/contact_dermatitis_0871.jpg,1,1,0.80582994,1328,0.9381231665611268
+data/train/Contact Dermatitis/contact_dermatitis_0883.jpg,1,1,0.9427815,340,0.910789668560028
+data/train/Contact Dermatitis/contact_dermatitis_0892.jpg,1,1,0.83618957,1161,0.8893822431564331
+data/train/Contact Dermatitis/contact_dermatitis_0899.jpg,1,1,0.93108815,827,0.9104595184326172
+data/train/Contact Dermatitis/contact_dermatitis_0908.jpg,1,1,0.91237175,202,0.8365697860717773
+data/train/Contact Dermatitis/contact_dermatitis_0912.jpg,1,1,0.94922686,230,0.9067778587341307
+data/train/Contact Dermatitis/contact_dermatitis_0916.jpg,1,1,0.7416667,1025,0.8917169570922852
+data/train/Contact Dermatitis/contact_dermatitis_0923.jpg,1,1,0.93622667,383,0.892638087272644
+data/train/Contact Dermatitis/contact_dermatitis_0932.jpg,1,1,0.9243126,556,0.9253634214401244
+data/train/Contact Dermatitis/contact_dermatitis_0941.jpg,1,1,0.95705247,422,0.9306997656822203
+data/train/Contact Dermatitis/contact_dermatitis_1030.jpg,1,1,0.9230504,492,0.9376260042190552
+data/train/Contact Dermatitis/contact_dermatitis_1045.jpg,1,1,0.97559845,422,0.9138224124908448
+data/train/Contact Dermatitis/contact_dermatitis_1064.jpg,1,1,0.9385555,230,0.9276655912399292
+data/train/Contact Dermatitis/contact_dermatitis_1098.jpg,1,1,0.7982301,680,0.9109571576118468
+data/train/Contact Dermatitis/contact_dermatitis_1102.jpg,1,1,0.9659016,1565,0.923763871192932
+data/train/Contact Dermatitis/contact_dermatitis_1103.jpg,1,1,0.5928001,619,0.933664083480835
+data/train/Contact Dermatitis/contact_dermatitis_1109.jpg,1,1,0.64621544,974,0.917206883430481
+data/train/Contact Dermatitis/contact_dermatitis_1113.jpg,1,1,0.93843704,230,0.9095346927642822
+data/train/Contact Dermatitis/contact_dermatitis_1123.jpg,1,1,0.89307654,1209,0.8962973356246948
+data/train/Contact Dermatitis/contact_dermatitis_1124.jpg,1,1,0.8735893,297,0.9003043174743652
+data/train/Contact Dermatitis/contact_dermatitis_1159.jpg,1,1,0.96342945,509,0.8980365991592407
+data/train/Contact Dermatitis/contact_dermatitis_1169.jpg,1,1,0.91768146,1272,0.9262030124664308
+data/train/Folliculitis/folliculitis_0005.jpg,2,2,0.95678735,395,0.8574694991111755
+data/train/Folliculitis/folliculitis_0015.jpg,2,2,0.91442424,1196,0.892835795879364
+data/train/Folliculitis/folliculitis_0027.jpg,2,2,0.94349986,835,0.9115527272224426
+data/train/Folliculitis/folliculitis_0034.jpg,2,2,0.83279026,443,0.9380602836608888
+data/train/Folliculitis/folliculitis_0040.jpg,2,2,0.80870926,1378,0.9235345721244812
+data/train/Folliculitis/folliculitis_0045.jpg,2,2,0.59558386,593,0.9189460277557372
+data/train/Folliculitis/folliculitis_0058.jpg,2,2,0.75377256,786,0.8660162687301636
+data/train/Folliculitis/folliculitis_0063.jpg,2,2,0.856655,524,0.8978559970855713
+data/train/Folliculitis/folliculitis_0069.jpg,2,2,0.87721443,515,0.9059493541717528
+data/train/Folliculitis/folliculitis_0099.jpg,2,2,0.8714728,952,0.917790412902832
+data/train/Folliculitis/folliculitis_0109.jpg,2,2,0.963956,1299,0.902138352394104
+data/train/Folliculitis/folliculitis_0127.jpg,2,2,0.768546,1201,0.8049431443214417
+data/train/Folliculitis/folliculitis_0128.jpg,2,2,0.9177408,395,0.9170427918434144
+data/train/Folliculitis/folliculitis_0129.jpg,2,2,0.7902659,315,0.9005988240242004
+data/train/Folliculitis/folliculitis_0142.jpg,2,2,0.7580931,524,0.8949298858642578
+data/train/Folliculitis/folliculitis_0159.jpg,2,2,0.8445178,581,0.9221014976501464
+data/train/Folliculitis/folliculitis_0213.jpg,2,2,0.8835746,581,0.9000762701034546
+data/train/Folliculitis/folliculitis_0245.jpg,2,2,0.82967377,515,0.9172825813293456
+data/train/Folliculitis/folliculitis_0259.jpg,2,2,0.91143036,1264,0.9160754680633544
+data/train/Folliculitis/folliculitis_0264.jpg,2,2,0.93076843,835,0.9061217308044434
+data/train/Folliculitis/folliculitis_0269.jpg,2,2,0.70346004,593,0.8858873248100281
+data/train/Folliculitis/folliculitis_0270.jpg,2,2,0.839975,524,0.889404296875
+data/train/Folliculitis/folliculitis_0276.jpg,2,2,0.944073,395,0.9009242057800292
+data/train/Folliculitis/folliculitis_0314.jpg,2,2,0.93495154,545,0.8689804077148438
+data/train/Folliculitis/folliculitis_0322.jpg,2,2,0.943796,459,0.902258276939392
+data/train/Folliculitis/folliculitis_0330.jpg,2,2,0.7441913,315,0.8772554397583008
+data/train/Folliculitis/folliculitis_0358.jpg,2,2,0.9257825,342,0.8575781583786011
+data/train/Folliculitis/folliculitis_0377.jpg,2,2,0.93773586,395,0.911192774772644
+data/train/Folliculitis/folliculitis_0378.jpg,2,2,0.83798426,1622,0.9191402792930604
+data/train/Folliculitis/folliculitis_0380.jpg,2,2,0.9240671,545,0.897760272026062
+data/train/Folliculitis/folliculitis_0384.jpg,2,2,0.92732143,376,0.9332005977630616
+data/train/Folliculitis/folliculitis_0444.jpg,2,2,0.8869579,1293,0.937246799468994
+data/train/Folliculitis/folliculitis_0459.jpg,2,2,0.95936567,459,0.8688615560531616
+data/train/Folliculitis/folliculitis_0467.jpg,2,2,0.9678755,1163,0.9155960083007812
+data/train/Folliculitis/folliculitis_0471.jpg,2,2,0.932668,395,0.9198535084724426
+data/train/Folliculitis/folliculitis_0478.jpg,2,2,0.64961255,315,0.9167957305908204
+data/train/Folliculitis/folliculitis_0479.jpg,2,2,0.82961416,954,0.8931378126144409
+data/train/Folliculitis/folliculitis_0488.jpg,2,2,0.8929171,395,0.9233872890472412
+data/train/Folliculitis/folliculitis_0508.jpg,2,2,0.87191755,1260,0.9333058595657348
+data/train/Folliculitis/folliculitis_0516.jpg,2,2,0.88050073,315,0.8989038467407227
+data/train/Folliculitis/folliculitis_0517.jpg,2,2,0.9405024,395,0.8920701742172241
+data/train/Folliculitis/folliculitis_0524.jpg,2,2,0.93891656,395,0.9045755863189696
+data/train/Folliculitis/folliculitis_0549.jpg,2,2,0.8939303,342,0.8582295775413513
+data/train/Folliculitis/folliculitis_0552.jpg,2,2,0.77590996,593,0.8871451616287231
+data/train/Folliculitis/folliculitis_0614.jpg,2,2,0.6033982,1201,0.8373246192932129
+data/train/Folliculitis/folliculitis_0642.jpg,2,2,0.72279096,315,0.917740762233734
+data/train/Folliculitis/folliculitis_0652.jpg,2,2,0.9341535,1238,0.9042940139770508
+data/train/Folliculitis/folliculitis_0656.jpg,2,2,0.9092116,395,0.9029300212860109
+data/train/Folliculitis/folliculitis_0675.jpg,2,2,0.8376029,342,0.8589649200439453
+data/train/Folliculitis/folliculitis_0692.jpg,2,2,0.86926484,631,0.9270134568214417
+data/train/Folliculitis/folliculitis_0695.jpg,2,2,0.9446705,342,0.8866769671440125
+data/train/Folliculitis/folliculitis_0698.jpg,2,2,0.92113966,1299,0.9038175344467164
+data/train/Folliculitis/folliculitis_0699.jpg,2,2,0.8842014,545,0.8878566026687622
+data/train/Folliculitis/folliculitis_0700.jpg,2,2,0.9225146,395,0.8320157527923584
+data/train/Folliculitis/folliculitis_0703.jpg,2,2,0.8076297,524,0.8997522592544556
+data/train/Folliculitis/folliculitis_0734.jpg,2,2,0.93650407,571,0.9086079597473145
+data/train/Folliculitis/folliculitis_0744.jpg,2,2,0.9458043,581,0.9187765717506408
+data/train/Folliculitis/folliculitis_0754.jpg,2,2,0.7871329,524,0.886586606502533
+data/train/Folliculitis/folliculitis_0767.jpg,2,2,0.8677493,954,0.8940820097923279
+data/train/Folliculitis/folliculitis_0814.jpg,2,2,0.8738154,342,0.8235094547271729
+data/train/Folliculitis/folliculitis_0820.jpg,2,2,0.74966675,545,0.8834960460662842
+data/train/Folliculitis/folliculitis_0834.jpg,2,2,0.5399586,515,0.9233930110931396
+data/train/Folliculitis/folliculitis_0842.jpg,2,2,0.9288782,459,0.8452342748641968
+data/train/Folliculitis/folliculitis_0853.jpg,2,2,0.9012584,746,0.9042764902114868
+data/train/Folliculitis/folliculitis_0858.jpg,2,2,0.8405772,524,0.9150599837303162
+data/train/Folliculitis/folliculitis_0868.jpg,2,2,0.7525001,593,0.9152308702468872
+data/train/Folliculitis/folliculitis_0876.jpg,2,2,0.7314487,515,0.9169946908950806
+data/train/Folliculitis/folliculitis_0877.jpg,2,2,0.8527463,709,0.9143028855323792
+data/train/Folliculitis/folliculitis_0879.jpg,2,2,0.6459699,515,0.9294623136520386
+data/train/Folliculitis/folliculitis_0898.jpg,2,2,0.9571594,459,0.8584274053573608
+data/train/Folliculitis/folliculitis_0912.jpg,2,2,0.91661227,545,0.8675776124000549
+data/train/Folliculitis/folliculitis_0919.jpg,2,2,0.7675168,315,0.8974900841712952
+data/train/Folliculitis/folliculitis_0936.jpg,2,2,0.9004233,1264,0.9185708165168762
+data/train/Folliculitis/folliculitis_0957.jpg,2,2,0.80754524,593,0.9235152006149292
+data/train/Folliculitis/folliculitis_0976.jpg,2,2,0.92168546,459,0.8353043794631958
+data/train/Folliculitis/folliculitis_0983.jpg,2,2,0.7716534,1264,0.9192750453948976
+data/train/Folliculitis/folliculitis_0998.jpg,2,2,0.9231478,571,0.9252473711967468
+data/train/Folliculitis/folliculitis_1021.jpg,2,2,0.91999984,459,0.8004428744316101
+data/train/Folliculitis/folliculitis_1031.jpg,2,2,0.9474507,545,0.8642524480819702
+data/train/Folliculitis/folliculitis_1037.jpg,2,2,0.8944082,524,0.8977296352386475
+data/train/Folliculitis/folliculitis_1046.jpg,2,2,0.9240035,342,0.8414202928543091
+data/train/Folliculitis/folliculitis_1051.jpg,2,2,0.83594847,593,0.9047254323959352
+data/train/Folliculitis/folliculitis_1053.jpg,2,2,0.9092919,545,0.8990689516067505
+data/train/Folliculitis/folliculitis_1081.jpg,2,2,0.73537546,524,0.9199214577674866
+data/train/Folliculitis/folliculitis_1096.jpg,2,2,0.8422447,524,0.9080179929733276
+data/train/Folliculitis/folliculitis_1124.jpg,2,2,0.8727095,593,0.8901029229164124
+data/train/Folliculitis/folliculitis_1132.jpg,2,2,0.95574605,395,0.918062686920166
+data/train/Folliculitis/folliculitis_1141.jpg,2,2,0.8846644,545,0.8959449529647827
+data/train/Folliculitis/folliculitis_1175.jpg,2,2,0.81020516,581,0.9116368293762208
+data/train/Head Lice/head_lice_0028.jpg,3,3,0.97164696,832,0.9187211990356444
+data/train/Head Lice/head_lice_0035.jpg,3,3,0.8692959,530,0.8954957723617554
+data/train/Head Lice/head_lice_0050.jpg,3,3,0.88930726,1091,0.8864760398864746
+data/train/Head Lice/head_lice_0055.jpg,3,3,0.91613835,1365,0.8949509859085083
+data/train/Head Lice/head_lice_0058.jpg,3,3,0.8870601,976,0.9065130949020386
+data/train/Head Lice/head_lice_0060.jpg,3,3,0.948448,88,0.9192847013473512
+data/train/Head Lice/head_lice_0065.jpg,3,3,0.8960647,1321,0.8901293873786926
+data/train/Head Lice/head_lice_0118.jpg,3,3,0.94412273,465,0.9320539236068726
+data/train/Head Lice/head_lice_0139.jpg,3,3,0.9099585,1367,0.9169982671737672
+data/train/Head Lice/head_lice_0153.jpg,3,3,0.9226327,777,0.9186702966690063
+data/train/Head Lice/head_lice_0154.jpg,3,3,0.9422676,1213,0.9040360450744628
+data/train/Head Lice/head_lice_0163.jpg,3,3,0.8432884,312,0.8799497485160828
+data/train/Head Lice/head_lice_0220.jpg,3,3,0.9315876,214,0.8994654417037964
+data/train/Head Lice/head_lice_0236.jpg,3,3,0.90876865,88,0.9012097716331482
+data/train/Head Lice/head_lice_0276.jpg,3,3,0.8540737,214,0.9098421931266784
+data/train/Head Lice/head_lice_0281.jpg,3,3,0.8228971,1474,0.9205639362335204
+data/train/Head Lice/head_lice_0309.jpg,3,3,0.75823605,186,0.8860415816307068
+data/train/Head Lice/head_lice_0310.jpg,3,3,0.95504063,648,0.9133437275886536
+data/train/Head Lice/head_lice_0316.jpg,3,3,0.8847798,465,0.8927749991416931
+data/train/Head Lice/head_lice_0321.jpg,3,3,0.9194811,185,0.919823169708252
+data/train/Head Lice/head_lice_0345.jpg,3,3,0.90416765,1301,0.8958573341369629
+data/train/Head Lice/head_lice_0348.jpg,3,3,0.92572,648,0.895250678062439
+data/train/Head Lice/head_lice_0368.jpg,3,3,0.71742296,713,0.918522834777832
+data/train/Head Lice/head_lice_0378.jpg,3,3,0.8785217,976,0.931171417236328
+data/train/Head Lice/head_lice_0400.jpg,3,3,0.9514575,1558,0.91667377948761
+data/train/Head Lice/head_lice_0402.jpg,3,3,0.90449697,1213,0.8956863880157471
+data/train/Head Lice/head_lice_0406.jpg,3,3,0.8763197,648,0.9030450582504272
+data/train/Head Lice/head_lice_0433.jpg,3,3,0.88325804,997,0.9011236429214478
+data/train/Head Lice/head_lice_0443.jpg,3,3,0.77031577,214,0.9007450342178344
+data/train/Head Lice/head_lice_0448.jpg,3,3,0.9102243,1181,0.904536247253418
+data/train/Head Lice/head_lice_0450.jpg,3,3,0.7405201,312,0.8516967296600342
+data/train/Head Lice/head_lice_0492.jpg,3,3,0.91836494,312,0.9026778936386108
+data/train/Head Lice/head_lice_0495.jpg,3,3,0.91340953,388,0.9014344215393066
+data/train/Head Lice/head_lice_0531.jpg,3,3,0.90621126,732,0.9064481258392334
+data/train/Head Lice/head_lice_0534.jpg,3,3,0.65261364,997,0.8626691102981567
+data/train/Head Lice/head_lice_0553.jpg,3,3,0.9389779,713,0.9272457361221312
+data/train/Head Lice/head_lice_0558.jpg,3,3,0.9170855,1295,0.9358729720115662
+data/train/Head Lice/head_lice_0569.jpg,3,3,0.8523635,777,0.8798716068267822
+data/train/Head Lice/head_lice_0571.jpg,3,3,0.9363192,1337,0.9317641258239746
+data/train/Head Lice/head_lice_0576.jpg,3,3,0.8998933,889,0.9002292156219482
+data/train/Head Lice/head_lice_0580.jpg,3,3,0.9207457,1181,0.908454656600952
+data/train/Head Lice/head_lice_0581.jpg,3,3,0.9438336,214,0.9095509052276612
+data/train/Head Lice/head_lice_0583.jpg,3,3,0.9130277,1539,0.8624085187911987
+data/train/Head Lice/head_lice_0609.jpg,3,3,0.9279227,1072,0.8938984870910645
+data/train/Head Lice/head_lice_0613.jpg,3,3,0.8833567,312,0.8637639880180359
+data/train/Head Lice/head_lice_0633.jpg,3,3,0.7685674,941,0.9194800853729248
+data/train/Head Lice/head_lice_0635.jpg,3,3,0.9487388,88,0.8827056884765625
+data/train/Head Lice/head_lice_0639.jpg,3,3,0.8880164,1132,0.9061756134033204
+data/train/Head Lice/head_lice_0690.jpg,3,3,0.8482366,732,0.910728931427002
+data/train/Head Lice/head_lice_0694.jpg,3,3,0.9675042,1213,0.9129698276519777
+data/train/Head Lice/head_lice_0705.jpg,3,3,0.91819346,214,0.8799135684967041
+data/train/Head Lice/head_lice_0721.jpg,3,3,0.8983376,1069,0.8853731155395508
+data/train/Head Lice/head_lice_0732.jpg,3,3,0.86644244,1157,0.9356592893600464
+data/train/Head Lice/head_lice_0746.jpg,3,3,0.7420449,388,0.907440185546875
+data/train/Head Lice/head_lice_0747.jpg,3,3,0.78809917,1343,0.9244582653045654
+data/train/Head Lice/head_lice_0762.jpg,3,3,0.82148105,967,0.905575156211853
+data/train/Head Lice/head_lice_0768.jpg,3,3,0.873167,1523,0.8934086561203003
+data/train/Head Lice/head_lice_0783.jpg,3,3,0.8338842,465,0.8316354751586914
+data/train/Head Lice/head_lice_0807.jpg,3,3,0.80080956,1118,0.9147579669952391
+data/train/Head Lice/head_lice_0820.jpg,3,3,0.8933193,214,0.8929347395896912
+data/train/Head Lice/head_lice_0829.jpg,3,3,0.7821423,648,0.9133666157722472
+data/train/Head Lice/head_lice_0839.jpg,3,3,0.8363852,713,0.9231075644493104
+data/train/Head Lice/head_lice_0840.jpg,3,3,0.7775186,1474,0.8949500322341919
+data/train/Head Lice/head_lice_0845.jpg,3,3,0.9128291,465,0.8811531066894531
+data/train/Head Lice/head_lice_0853.jpg,3,3,0.85562634,731,0.9127264022827148
+data/train/Head Lice/head_lice_0864.jpg,3,3,0.7655098,312,0.895548939704895
+data/train/Head Lice/head_lice_0866.jpg,3,3,0.92956144,530,0.8837696313858032
+data/train/Head Lice/head_lice_0867.jpg,3,3,0.8363938,731,0.8820013999938965
+data/train/Head Lice/head_lice_0894.jpg,3,3,0.91268903,832,0.9307666420936584
+data/train/Head Lice/head_lice_0907.jpg,3,3,0.8112509,312,0.8644626140594482
+data/train/Head Lice/head_lice_0908.jpg,3,3,0.91821426,1295,0.9173226356506348
+data/train/Head Lice/head_lice_0914.jpg,3,3,0.8522595,1255,0.8833494186401367
+data/train/Head Lice/head_lice_0918.jpg,3,3,0.94936424,1301,0.9129179120063782
+data/train/Head Lice/head_lice_0939.jpg,3,3,0.86932653,88,0.9183465242385864
+data/train/Head Lice/head_lice_0941.jpg,3,3,0.89846736,1007,0.9393128156661988
+data/train/Head Lice/head_lice_0952.jpg,3,3,0.8751316,648,0.9110156297683716
+data/train/Head Lice/head_lice_0972.jpg,3,3,0.8174133,388,0.8898951411247253
+data/train/Head Lice/head_lice_0979.jpg,3,3,0.753578,388,0.9023891687393188
+data/train/Head Lice/head_lice_0981.jpg,3,3,0.92570764,1091,0.8954287767410278
+data/train/Head Lice/head_lice_0990.jpg,3,3,0.92088455,981,0.8969523906707764
+data/train/Head Lice/head_lice_0998.jpg,3,3,0.9322042,981,0.8939741849899292
+data/train/Head Lice/head_lice_1041.jpg,3,3,0.7821708,388,0.9003486037254333
+data/train/Head Lice/head_lice_1053.jpg,3,3,0.7440824,967,0.8987666368484497
+data/train/Head Lice/head_lice_1055.jpg,3,3,0.95769584,648,0.9098787903785706
+data/train/Head Lice/head_lice_1071.jpg,3,3,0.93090165,889,0.9010158181190492
+data/train/Head Lice/head_lice_1088.jpg,3,3,0.6469373,1474,0.9014272689819336
+data/train/Head Lice/head_lice_1101.jpg,3,3,0.9073885,889,0.9074459075927734
+data/train/Head Lice/head_lice_1118.jpg,3,3,0.9365024,88,0.9076908826828004
+data/train/Head Lice/head_lice_1130.jpg,3,3,0.74730974,186,0.9256011843681335
+data/train/Head Lice/head_lice_1157.jpg,3,3,0.85415417,530,0.8888238072395325
+data/train/Head Lice/head_lice_1160.jpg,3,3,0.8912164,185,0.9239581823349
+data/train/Head Lice/head_lice_1163.jpg,3,3,0.91148657,1247,0.9083213210105896
+data/train/Head Lice/head_lice_1164.jpg,3,3,0.90539277,1026,0.890511155128479
+data/train/Head Lice/head_lice_1195.jpg,3,3,0.8297375,1181,0.902981460094452
+data/train/Lichen Planus/lichen_planus_0010.jpg,4,4,0.77908653,562,0.8927452564239502
+data/train/Lichen Planus/lichen_planus_0015.jpg,4,4,0.90845793,191,0.8751181364059448
+data/train/Lichen Planus/lichen_planus_0038.jpg,4,4,0.91284984,25,0.8936012983322144
+data/train/Lichen Planus/lichen_planus_0071.jpg,4,4,0.85263246,191,0.8753656148910522
+data/train/Lichen Planus/lichen_planus_0073.jpg,4,4,0.47751537,1210,0.8744910359382629
+data/train/Lichen Planus/lichen_planus_0083.jpg,4,4,0.87271744,191,0.8888682126998901
+data/train/Lichen Planus/lichen_planus_0102.jpg,4,4,0.895651,1524,0.917328119277954
+data/train/Lichen Planus/lichen_planus_0153.jpg,4,4,0.8716635,1524,0.8937618732452393
+data/train/Lichen Planus/lichen_planus_0182.jpg,4,4,0.63535863,1418,0.9198341369628906
+data/train/Lichen Planus/lichen_planus_0183.jpg,4,4,0.8108455,427,0.894017219543457
+data/train/Lichen Planus/lichen_planus_0200.jpg,4,4,0.81293625,257,0.8868238925933838
+data/train/Lichen Planus/lichen_planus_0201.jpg,4,4,0.90157956,816,0.9109119176864624
+data/train/Lichen Planus/lichen_planus_0206.jpg,4,4,0.71492535,257,0.8945389986038208
+data/train/Lichen Planus/lichen_planus_0209.jpg,4,4,0.94768035,304,0.896599292755127
+data/train/Lichen Planus/lichen_planus_0231.jpg,4,4,0.97692174,304,0.9319435358047484
+data/train/Lichen Planus/lichen_planus_0238.jpg,4,4,0.86466587,25,0.9263253211975098
+data/train/Lichen Planus/lichen_planus_0242.jpg,4,4,0.67774975,562,0.9104424118995668
+data/train/Lichen Planus/lichen_planus_0251.jpg,4,4,0.9110779,427,0.8544297218322754
+data/train/Lichen Planus/lichen_planus_0270.jpg,4,4,0.76785946,191,0.8528944849967957
+data/train/Lichen Planus/lichen_planus_0276.jpg,4,4,0.9294936,427,0.8943568468093872
+data/train/Lichen Planus/lichen_planus_0288.jpg,4,4,0.97627,665,0.9041957855224608
+data/train/Lichen Planus/lichen_planus_0311.jpg,4,4,0.92231816,25,0.9164187908172609
+data/train/Lichen Planus/lichen_planus_0315.jpg,4,4,0.7748463,199,0.8623224496841431
+data/train/Lichen Planus/lichen_planus_0356.jpg,4,4,0.32335293,1531,0.919382870197296
+data/train/Lichen Planus/lichen_planus_0378.jpg,4,4,0.7773618,623,0.904965043067932
+data/train/Lichen Planus/lichen_planus_0402.jpg,4,4,0.9722506,304,0.8984922170639038
+data/train/Lichen Planus/lichen_planus_0419.jpg,4,4,0.8609201,1425,0.9159699082374572
+data/train/Lichen Planus/lichen_planus_0444.jpg,4,4,0.9165188,94,0.9252166748046876
+data/train/Lichen Planus/lichen_planus_0451.jpg,4,4,0.83222944,427,0.8829857110977173
+data/train/Lichen Planus/lichen_planus_0455.jpg,4,4,0.8521663,94,0.8934680819511414
+data/train/Lichen Planus/lichen_planus_0464.jpg,4,4,0.9077626,1524,0.9204457402229308
+data/train/Lichen Planus/lichen_planus_0522.jpg,4,4,0.7953541,427,0.8672686815261841
+data/train/Lichen Planus/lichen_planus_0528.jpg,4,4,0.90845215,427,0.9079071283340454
+data/train/Lichen Planus/lichen_planus_0546.jpg,4,4,0.8269075,513,0.9256651401519777
+data/train/Lichen Planus/lichen_planus_0551.jpg,4,4,0.7299639,623,0.9144070148468018
+data/train/Lichen Planus/lichen_planus_0573.jpg,4,4,0.9307809,427,0.9006755352020264
+data/train/Lichen Planus/lichen_planus_0581.jpg,4,4,0.8993787,94,0.8860812783241272
+data/train/Lichen Planus/lichen_planus_0585.jpg,4,4,0.6687899,900,0.9180485606193542
+data/train/Lichen Planus/lichen_planus_0588.jpg,4,4,0.92760867,816,0.930881142616272
+data/train/Lichen Planus/lichen_planus_0605.jpg,4,4,0.83116275,94,0.909493923187256
+data/train/Lichen Planus/lichen_planus_0620.jpg,4,4,0.8852886,191,0.9104189276695251
+data/train/Lichen Planus/lichen_planus_0625.jpg,4,4,0.86163944,1268,0.9137176275253296
+data/train/Lichen Planus/lichen_planus_0655.jpg,4,4,0.83165073,94,0.8889322876930237
+data/train/Lichen Planus/lichen_planus_0657.jpg,4,4,0.81784624,191,0.8773146867752075
+data/train/Lichen Planus/lichen_planus_0668.jpg,4,4,0.65963453,257,0.8631261587142944
+data/train/Lichen Planus/lichen_planus_0669.jpg,4,4,0.90318906,427,0.8869937658309937
+data/train/Lichen Planus/lichen_planus_0711.jpg,4,4,0.76467675,94,0.9095971584320068
+data/train/Lichen Planus/lichen_planus_0715.jpg,4,4,0.9058226,191,0.890020489692688
+data/train/Lichen Planus/lichen_planus_0720.jpg,4,4,0.7287579,661,0.9213418960571288
+data/train/Lichen Planus/lichen_planus_0738.jpg,4,4,0.9175426,427,0.9073794484138488
+data/train/Lichen Planus/lichen_planus_0739.jpg,4,4,0.76305896,562,0.8782089948654175
+data/train/Lichen Planus/lichen_planus_0740.jpg,4,4,0.6709265,199,0.8626726865768433
+data/train/Lichen Planus/lichen_planus_0772.jpg,4,4,0.7995595,816,0.9196015000343324
+data/train/Lichen Planus/lichen_planus_0793.jpg,4,4,0.9348651,816,0.918232798576355
+data/train/Lichen Planus/lichen_planus_0818.jpg,4,4,0.86747634,562,0.9336216449737548
+data/train/Lichen Planus/lichen_planus_0824.jpg,4,4,0.9198014,304,0.903987467288971
+data/train/Lichen Planus/lichen_planus_0831.jpg,4,4,0.81525296,562,0.9063652753829956
+data/train/Lichen Planus/lichen_planus_0858.jpg,4,4,0.8181606,1508,0.9046888947486876
+data/train/Lichen Planus/lichen_planus_0912.jpg,4,4,0.87902015,816,0.9073992371559144
+data/train/Lichen Planus/lichen_planus_0921.jpg,4,4,0.8854296,816,0.889064371585846
+data/train/Lichen Planus/lichen_planus_0929.jpg,4,4,0.9298521,427,0.8964149951934814
+data/train/Lichen Planus/lichen_planus_0941.jpg,4,4,0.79720324,562,0.9046695232391356
+data/train/Lichen Planus/lichen_planus_0963.jpg,4,4,0.9299755,304,0.9136964082717896
+data/train/Lichen Planus/lichen_planus_0966.jpg,4,4,0.3897973,983,0.8732267618179321
+data/train/Lichen Planus/lichen_planus_0973.jpg,4,4,0.504173,900,0.9034831523895264
+data/train/Lichen Planus/lichen_planus_0984.jpg,4,4,0.90040064,427,0.9528137445449828
+data/train/Lichen Planus/lichen_planus_1003.jpg,4,4,0.59376675,199,0.8659603595733643
+data/train/Lichen Planus/lichen_planus_1024.jpg,4,4,0.9077869,199,0.8894118666648865
+data/train/Lichen Planus/lichen_planus_1027.jpg,4,4,0.8997815,427,0.890130877494812
+data/train/Lichen Planus/lichen_planus_1047.jpg,4,4,0.83955175,94,0.913148820400238
+data/train/Lichen Planus/lichen_planus_1052.jpg,4,4,0.6880545,562,0.8965103626251221
+data/train/Lichen Planus/lichen_planus_1059.jpg,4,4,0.5853827,1573,0.9085668325424194
+data/train/Lichen Planus/lichen_planus_1102.jpg,4,4,0.7494628,413,0.8727061152458191
+data/train/Lichen Planus/lichen_planus_1108.jpg,4,4,0.8123876,25,0.9112105369567872
+data/train/Lichen Planus/lichen_planus_1110.jpg,4,4,0.7338615,94,0.9189677238464355
+data/train/Lichen Planus/lichen_planus_1117.jpg,4,4,0.91036755,513,0.934505581855774
+data/train/Lichen Planus/lichen_planus_1130.jpg,4,4,0.87134063,427,0.879649817943573
+data/train/Lichen Planus/lichen_planus_1153.jpg,4,4,0.69509226,623,0.904155969619751
+data/train/Lichen Planus/lichen_planus_1159.jpg,4,4,0.75617766,94,0.8845523595809937
+data/train/Lichen Planus/lichen_planus_1161.jpg,4,4,0.710099,199,0.8742971420288086
+data/train/Lichen Planus/lichen_planus_1178.jpg,4,4,0.9006471,1360,0.8459762334823608
+data/train/Lichen Planus/lichen_planus_1179.jpg,4,4,0.86730933,94,0.9051215052604676
+data/train/Lichen Planus/lichen_planus_1193.jpg,4,4,0.72771746,257,0.9075311422348022
+data/train/Lichen Planus/lichen_planus_1194.jpg,4,4,0.9265898,1396,0.9309418201446532
+data/train/Lichen Planus/lichen_planus_1197.jpg,4,4,0.9578383,413,0.9392076730728148
+data/train/Male Pattern Baldness/male_pattern_baldness_0025.jpg,5,5,0.8405369,724,0.9047160148620604
+data/train/Male Pattern Baldness/male_pattern_baldness_0064.jpg,5,5,0.84411573,95,0.8833780288696289
+data/train/Male Pattern Baldness/male_pattern_baldness_0066.jpg,5,5,0.42382342,339,0.7760465145111084
+data/train/Male Pattern Baldness/male_pattern_baldness_0085.jpg,5,5,0.61772287,404,0.8444181084632874
+data/train/Male Pattern Baldness/male_pattern_baldness_0135.jpg,5,5,0.86274505,404,0.8633227348327637
+data/train/Male Pattern Baldness/male_pattern_baldness_0183.jpg,5,5,0.7795633,95,0.9074750542640686
+data/train/Male Pattern Baldness/male_pattern_baldness_0188.jpg,5,5,0.78039783,662,0.9189027547836304
+data/train/Male Pattern Baldness/male_pattern_baldness_0219.jpg,5,5,0.68281275,722,0.918401539325714
+data/train/Male Pattern Baldness/male_pattern_baldness_0223.jpg,5,5,0.7990013,722,0.91851806640625
+data/train/Male Pattern Baldness/male_pattern_baldness_0226.jpg,5,5,0.78213745,1218,0.9199984669685364
+data/train/Male Pattern Baldness/male_pattern_baldness_0232.jpg,5,5,0.8540319,95,0.8738217949867249
+data/train/Male Pattern Baldness/male_pattern_baldness_0255.jpg,5,0,0.4951192,332,0.8181098699569702
+data/train/Male Pattern Baldness/male_pattern_baldness_0272.jpg,5,5,0.7712815,95,0.8740873336791992
+data/train/Male Pattern Baldness/male_pattern_baldness_0273.jpg,5,5,0.88867277,95,0.8699054718017578
+data/train/Male Pattern Baldness/male_pattern_baldness_0276.jpg,5,5,0.85094863,95,0.8755936622619629
+data/train/Male Pattern Baldness/male_pattern_baldness_0287.jpg,5,0,0.3336224,332,0.839335560798645
+data/train/Male Pattern Baldness/male_pattern_baldness_0309.jpg,5,5,0.35132095,339,0.7577884197235107
+data/train/Male Pattern Baldness/male_pattern_baldness_0322.jpg,5,5,0.75113773,404,0.8509547710418701
+data/train/Male Pattern Baldness/male_pattern_baldness_0336.jpg,5,5,0.8372583,404,0.837660551071167
+data/train/Male Pattern Baldness/male_pattern_baldness_0360.jpg,5,5,0.8238126,95,0.8668283820152283
+data/train/Male Pattern Baldness/male_pattern_baldness_0372.jpg,5,0,0.33112672,332,0.8286443948745728
+data/train/Male Pattern Baldness/male_pattern_baldness_0381.jpg,5,5,0.815045,724,0.9168106913566588
+data/train/Male Pattern Baldness/male_pattern_baldness_0385.jpg,5,5,0.84765977,404,0.8564552068710327
+data/train/Male Pattern Baldness/male_pattern_baldness_0428.jpg,5,5,0.7883557,724,0.9083597660064696
+data/train/Male Pattern Baldness/male_pattern_baldness_0433.jpg,5,5,0.46518776,339,0.7668452858924866
+data/train/Male Pattern Baldness/male_pattern_baldness_0471.jpg,5,5,0.9188304,656,0.9098811745643616
+data/train/Male Pattern Baldness/male_pattern_baldness_0474.jpg,5,5,0.6563471,404,0.8428664207458496
+data/train/Male Pattern Baldness/male_pattern_baldness_0538.jpg,5,5,0.4176412,339,0.7696896195411682
+data/train/Male Pattern Baldness/male_pattern_baldness_0550.jpg,5,0,0.33938995,332,0.8289979100227356
+data/train/Male Pattern Baldness/male_pattern_baldness_0554.jpg,5,5,0.70402426,724,0.8656696677207947
+data/train/Male Pattern Baldness/male_pattern_baldness_0558.jpg,5,5,0.8313207,722,0.9457812309265136
+data/train/Male Pattern Baldness/male_pattern_baldness_0575.jpg,5,5,0.41568866,339,0.7729270458221436
+data/train/Male Pattern Baldness/male_pattern_baldness_0600.jpg,5,0,0.51466715,332,0.846408486366272
+data/train/Male Pattern Baldness/male_pattern_baldness_0601.jpg,5,5,0.86581194,95,0.8812831044197083
+data/train/Male Pattern Baldness/male_pattern_baldness_0680.jpg,5,0,0.40202937,332,0.8431189060211182
+data/train/Male Pattern Baldness/male_pattern_baldness_0681.jpg,5,0,0.4267492,332,0.8260063529014587
+data/train/Male Pattern Baldness/male_pattern_baldness_0687.jpg,5,0,0.30849278,332,0.8289330005645752
+data/train/Male Pattern Baldness/male_pattern_baldness_0700.jpg,5,5,0.9216072,722,0.9381773471832277
+data/train/Male Pattern Baldness/male_pattern_baldness_0704.jpg,5,5,0.83222073,95,0.8805119395256042
+data/train/Male Pattern Baldness/male_pattern_baldness_0711.jpg,5,5,0.5175835,339,0.7755352854728699
+data/train/Male Pattern Baldness/male_pattern_baldness_0740.jpg,5,0,0.3238542,332,0.8194594979286194
+data/train/Male Pattern Baldness/male_pattern_baldness_0752.jpg,5,5,0.39200023,339,0.7712628841400146
+data/train/Male Pattern Baldness/male_pattern_baldness_0775.jpg,5,5,0.9079992,656,0.9038795232772828
+data/train/Male Pattern Baldness/male_pattern_baldness_0787.jpg,5,5,0.88610685,95,0.857526421546936
+data/train/Male Pattern Baldness/male_pattern_baldness_0792.jpg,5,5,0.70247614,742,0.8987909555435181
+data/train/Male Pattern Baldness/male_pattern_baldness_0807.jpg,5,5,0.8989357,1514,0.9199728965759276
+data/train/Male Pattern Baldness/male_pattern_baldness_0811.jpg,5,5,0.75505525,95,0.8843889236450195
+data/train/Male Pattern Baldness/male_pattern_baldness_0818.jpg,5,5,0.8498743,656,0.9145928621292114
+data/train/Male Pattern Baldness/male_pattern_baldness_0821.jpg,5,5,0.8107219,722,0.9326761364936828
+data/train/Male Pattern Baldness/male_pattern_baldness_0830.jpg,5,9,0.36086792,332,0.8293762803077698
+data/train/Male Pattern Baldness/male_pattern_baldness_0845.jpg,5,0,0.36338678,332,0.8246040344238281
+data/train/Male Pattern Baldness/male_pattern_baldness_0846.jpg,5,0,0.31654507,332,0.8388428688049316
+data/train/Male Pattern Baldness/male_pattern_baldness_0849.jpg,5,0,0.35304868,332,0.8510245084762573
+data/train/Male Pattern Baldness/male_pattern_baldness_0972.jpg,5,5,0.31676602,339,0.7614574432373047
+data/train/Male Pattern Baldness/male_pattern_baldness_1003.jpg,5,5,0.52122766,339,0.759280264377594
+data/train/Male Pattern Baldness/male_pattern_baldness_1022.jpg,5,5,0.71920866,404,0.8443766832351685
+data/train/Male Pattern Baldness/male_pattern_baldness_1026.jpg,5,5,0.34297282,339,0.762194812297821
+data/train/Male Pattern Baldness/male_pattern_baldness_1032.jpg,5,5,0.834279,95,0.8826119303703308
+data/train/Male Pattern Baldness/male_pattern_baldness_1039.jpg,5,5,0.82030517,724,0.8442565202713013
+data/train/Male Pattern Baldness/male_pattern_baldness_1041.jpg,5,9,0.31689048,332,0.8343782424926758
+data/train/Male Pattern Baldness/male_pattern_baldness_1050.jpg,5,5,0.7319816,404,0.8525000810623169
+data/train/Male Pattern Baldness/male_pattern_baldness_1068.jpg,5,5,0.8024951,404,0.8550373315811157
+data/train/Male Pattern Baldness/male_pattern_baldness_1073.jpg,5,5,0.57302237,339,0.7694951891899109
+data/train/Male Pattern Baldness/male_pattern_baldness_1078.jpg,5,5,0.7502174,95,0.8811200857162476
+data/train/Male Pattern Baldness/male_pattern_baldness_1178.jpg,5,5,0.85697055,95,0.8804813623428345
+data/train/Male Pattern Baldness/male_pattern_baldness_1180.jpg,5,5,0.7729321,95,0.877372145652771
+data/train/Male Pattern Baldness/male_pattern_baldness_1192.jpg,5,5,0.84443086,95,0.8743911385536194
+data/train/Male Pattern Baldness/male_pattern_baldness_1200.jpg,5,0,0.49236682,332,0.8245849609375
+data/train/Psoriasis/psoriasis_0015.jpg,6,8,0.41983554,654,0.7758749723434448
+data/train/Psoriasis/psoriasis_0057.jpg,6,8,0.3182382,460,0.7946562767028809
+data/train/Psoriasis/psoriasis_0063.jpg,6,6,0.90000486,265,0.913364052772522
+data/train/Psoriasis/psoriasis_0113.jpg,6,6,0.8799132,570,0.8977078199386597
+data/train/Psoriasis/psoriasis_0155.jpg,6,8,0.3084956,460,0.7923870086669922
+data/train/Psoriasis/psoriasis_0170.jpg,6,6,0.8762852,570,0.903558313846588
+data/train/Psoriasis/psoriasis_0181.jpg,6,8,0.45412952,1170,0.7834657430648804
+data/train/Psoriasis/psoriasis_0184.jpg,6,6,0.8915296,570,0.899594783782959
+data/train/Psoriasis/psoriasis_0198.jpg,6,6,0.90149736,252,0.9085115790367126
+data/train/Psoriasis/psoriasis_0206.jpg,6,6,0.72597194,500,0.9206960797309875
+data/train/Psoriasis/psoriasis_0226.jpg,6,6,0.82381964,444,0.8991588950157166
+data/train/Psoriasis/psoriasis_0228.jpg,6,6,0.90189314,570,0.9206659197807312
+data/train/Psoriasis/psoriasis_0238.jpg,6,6,0.81999254,1242,0.915745735168457
+data/train/Psoriasis/psoriasis_0240.jpg,6,6,0.9280142,570,0.904770016670227
+data/train/Psoriasis/psoriasis_0250.jpg,6,6,0.8239445,1200,0.9025449752807616
+data/train/Psoriasis/psoriasis_0253.jpg,6,6,0.8040261,265,0.885910153388977
+data/train/Psoriasis/psoriasis_0263.jpg,6,6,0.92890894,265,0.9031448364257812
+data/train/Psoriasis/psoriasis_0272.jpg,6,6,0.7975759,1463,0.8994597792625427
+data/train/Psoriasis/psoriasis_0276.jpg,6,6,0.7927893,479,0.9043176174163818
+data/train/Psoriasis/psoriasis_0285.jpg,6,6,0.9049606,627,0.912503719329834
+data/train/Psoriasis/psoriasis_0330.jpg,6,6,0.73413754,479,0.9126119017601012
+data/train/Psoriasis/psoriasis_0339.jpg,6,6,0.86133474,252,0.903428077697754
+data/train/Psoriasis/psoriasis_0353.jpg,6,6,0.9352622,252,0.9077350497245787
+data/train/Psoriasis/psoriasis_0364.jpg,6,8,0.33130628,654,0.7858172059059143
+data/train/Psoriasis/psoriasis_0373.jpg,6,6,0.91921073,269,0.9093137383461
+data/train/Psoriasis/psoriasis_0377.jpg,6,8,0.5798354,654,0.8071280121803284
+data/train/Psoriasis/psoriasis_0382.jpg,6,6,0.49957794,268,0.9045225381851196
+data/train/Psoriasis/psoriasis_0387.jpg,6,6,0.8659337,1001,0.9224082827568054
+data/train/Psoriasis/psoriasis_0400.jpg,6,8,0.33637747,460,0.8067604303359985
+data/train/Psoriasis/psoriasis_0422.jpg,6,6,0.6110215,1200,0.888045072555542
+data/train/Psoriasis/psoriasis_0431.jpg,6,6,0.93866783,804,0.9197109937667848
+data/train/Psoriasis/psoriasis_0439.jpg,6,6,0.5454242,479,0.933537781238556
+data/train/Psoriasis/psoriasis_0448.jpg,6,6,0.74951667,1423,0.8984628915786743
+data/train/Psoriasis/psoriasis_0491.jpg,6,6,0.9223806,269,0.9120415449142456
+data/train/Psoriasis/psoriasis_0500.jpg,6,6,0.9350178,269,0.9131168127059937
+data/train/Psoriasis/psoriasis_0510.jpg,6,6,0.79163927,444,0.821285605430603
+data/train/Psoriasis/psoriasis_0526.jpg,6,8,0.35734516,460,0.8035190105438232
+data/train/Psoriasis/psoriasis_0555.jpg,6,8,0.40833452,460,0.7900302410125732
+data/train/Psoriasis/psoriasis_0562.jpg,6,8,0.2957045,460,0.7895799875259399
+data/train/Psoriasis/psoriasis_0579.jpg,6,6,0.7253056,1200,0.8925371170043945
+data/train/Psoriasis/psoriasis_0580.jpg,6,8,0.25999042,460,0.7915555834770203
+data/train/Psoriasis/psoriasis_0581.jpg,6,6,0.91969573,627,0.9217243194580078
+data/train/Psoriasis/psoriasis_0590.jpg,6,6,0.82269394,444,0.8685275316238403
+data/train/Psoriasis/psoriasis_0597.jpg,6,6,0.8891156,252,0.9121599197387696
+data/train/Psoriasis/psoriasis_0633.jpg,6,6,0.9152851,262,0.9250102639198304
+data/train/Psoriasis/psoriasis_0640.jpg,6,6,0.86910766,252,0.9188737273216248
+data/train/Psoriasis/psoriasis_0647.jpg,6,6,0.8536797,444,0.8773972988128662
+data/train/Psoriasis/psoriasis_0652.jpg,6,6,0.7800942,262,0.8881906270980835
+data/train/Psoriasis/psoriasis_0670.jpg,6,8,0.50476986,460,0.783258855342865
+data/train/Psoriasis/psoriasis_0725.jpg,6,6,0.8582982,500,0.9190804958343506
+data/train/Psoriasis/psoriasis_0755.jpg,6,6,0.90202814,265,0.8951218128204346
+data/train/Psoriasis/psoriasis_0767.jpg,6,6,0.864857,269,0.8943407535552979
+data/train/Psoriasis/psoriasis_0792.jpg,6,6,0.7567334,268,0.9178782105445862
+data/train/Psoriasis/psoriasis_0809.jpg,6,6,0.935454,262,0.8889584541320801
+data/train/Psoriasis/psoriasis_0820.jpg,6,8,0.47797143,654,0.7974573373794556
+data/train/Psoriasis/psoriasis_0852.jpg,6,6,0.7866472,268,0.9023315906524658
+data/train/Psoriasis/psoriasis_0864.jpg,6,6,0.8294262,252,0.9187569618225098
+data/train/Psoriasis/psoriasis_0884.jpg,6,6,0.73829544,269,0.9040747880935668
+data/train/Psoriasis/psoriasis_0897.jpg,6,6,0.8084104,269,0.909047544002533
+data/train/Psoriasis/psoriasis_0921.jpg,6,6,0.71610403,1200,0.9213018417358398
+data/train/Psoriasis/psoriasis_0925.jpg,6,6,0.8700447,262,0.8944165706634521
+data/train/Psoriasis/psoriasis_0932.jpg,6,6,0.48737818,479,0.9173134565353394
+data/train/Psoriasis/psoriasis_0963.jpg,6,6,0.6617753,268,0.9077420830726624
+data/train/Psoriasis/psoriasis_1001.jpg,6,6,0.8279968,444,0.8593368530273438
+data/train/Psoriasis/psoriasis_1006.jpg,6,6,0.79347235,444,0.8727205991744995
+data/train/Psoriasis/psoriasis_1025.jpg,6,6,0.7790156,444,0.8833627700805664
+data/train/Psoriasis/psoriasis_1028.jpg,6,6,0.964359,1444,0.911656618118286
+data/train/Psoriasis/psoriasis_1045.jpg,6,6,0.9213242,1065,0.9300974607467652
+data/train/Psoriasis/psoriasis_1046.jpg,6,6,0.8680038,1200,0.8889321088790894
+data/train/Psoriasis/psoriasis_1066.jpg,6,6,0.85914695,444,0.8695528507232666
+data/train/Psoriasis/psoriasis_1081.jpg,6,6,0.85783666,262,0.884222149848938
+data/train/Psoriasis/psoriasis_1090.jpg,6,6,0.59400874,1423,0.91414612531662
+data/train/Psoriasis/psoriasis_1092.jpg,6,6,0.901625,1200,0.8920029401779175
+data/train/Psoriasis/psoriasis_1097.jpg,6,8,0.20001908,460,0.7882477045059204
+data/train/Psoriasis/psoriasis_1113.jpg,6,6,0.91350055,265,0.9116435050964355
+data/train/Psoriasis/psoriasis_1167.jpg,6,6,0.8516369,252,0.9134474396705629
+data/train/Psoriasis/psoriasis_1175.jpg,6,8,0.38137752,460,0.7597448825836182
+data/train/Psoriasis/psoriasis_1179.jpg,6,6,0.86129767,268,0.8953006267547607
+data/train/Psoriasis/psoriasis_1192.jpg,6,6,0.7970457,265,0.9056415557861328
+data/train/Psoriasis/psoriasis_1200.jpg,6,6,0.6822656,269,0.9073116779327391
+data/train/Seborrheic Dermatitis/seborrheic_dermatitis_0054.jpg,7,7,0.5004282,314,0.8824270963668823
+data/train/Seborrheic Dermatitis/seborrheic_dermatitis_0067.jpg,7,7,0.88073885,717,0.9238747954368592
+data/train/Seborrheic Dermatitis/seborrheic_dermatitis_0078.jpg,7,7,0.86589515,1404,0.8554700613021851
+data/train/Seborrheic Dermatitis/seborrheic_dermatitis_0107.jpg,7,7,0.8091097,664,0.9316508769989014
+data/train/Seborrheic Dermatitis/seborrheic_dermatitis_0144.jpg,7,7,0.68337506,243,0.8431345224380493
+data/train/Seborrheic Dermatitis/seborrheic_dermatitis_0181.jpg,7,7,0.84642357,836,0.9280911087989808
+data/train/Seborrheic Dermatitis/seborrheic_dermatitis_0201.jpg,7,7,0.76624393,481,0.9205959439277648
+data/train/Seborrheic Dermatitis/seborrheic_dermatitis_0207.jpg,7,7,0.8900006,1104,0.9187809228897096
+data/train/Seborrheic Dermatitis/seborrheic_dermatitis_0220.jpg,7,7,0.76428115,1356,0.9167238473892212
+data/train/Seborrheic Dermatitis/seborrheic_dermatitis_0258.jpg,7,7,0.8870207,1356,0.8476591110229492
+data/train/Seborrheic Dermatitis/seborrheic_dermatitis_0293.jpg,7,7,0.76841253,314,0.9382917284965516
+data/train/Seborrheic Dermatitis/seborrheic_dermatitis_0301.jpg,7,7,0.93679327,575,0.8969206213951111
+data/train/Seborrheic Dermatitis/seborrheic_dermatitis_0339.jpg,7,2,0.22211452,1070,0.8908482789993286
+data/train/Seborrheic Dermatitis/seborrheic_dermatitis_0343.jpg,7,7,0.67477477,1585,0.8663639426231384
+data/train/Seborrheic Dermatitis/seborrheic_dermatitis_0348.jpg,7,7,0.94710124,361,0.9003562927246094
+data/train/Seborrheic Dermatitis/seborrheic_dermatitis_0358.jpg,7,7,0.8554924,882,0.9056459665298462
+data/train/Seborrheic Dermatitis/seborrheic_dermatitis_0361.jpg,7,7,0.7608229,221,0.8706088066101074
+data/train/Seborrheic Dermatitis/seborrheic_dermatitis_0377.jpg,7,7,0.8528588,909,0.8297632932662964
+data/train/Seborrheic Dermatitis/seborrheic_dermatitis_0386.jpg,7,7,0.92014486,1530,0.9288601875305176
+data/train/Seborrheic Dermatitis/seborrheic_dermatitis_0434.jpg,7,7,0.726358,664,0.8900446891784668
+data/train/Seborrheic Dermatitis/seborrheic_dermatitis_0440.jpg,7,7,0.8726303,723,0.902806043624878
+data/train/Seborrheic Dermatitis/seborrheic_dermatitis_0474.jpg,7,7,0.85128427,641,0.9189189672470092
+data/train/Seborrheic Dermatitis/seborrheic_dermatitis_0480.jpg,7,7,0.9055191,630,0.8900045156478882
+data/train/Seborrheic Dermatitis/seborrheic_dermatitis_0504.jpg,7,7,0.8993938,575,0.909347414970398
+data/train/Seborrheic Dermatitis/seborrheic_dermatitis_0506.jpg,7,7,0.94233865,361,0.918770670890808
+data/train/Seborrheic Dermatitis/seborrheic_dermatitis_0508.jpg,7,7,0.638647,447,0.8563050031661987
+data/train/Seborrheic Dermatitis/seborrheic_dermatitis_0535.jpg,7,7,0.82019675,1488,0.8937227129936218
+data/train/Seborrheic Dermatitis/seborrheic_dermatitis_0552.jpg,7,7,0.8257496,1080,0.8930865526199341
+data/train/Seborrheic Dermatitis/seborrheic_dermatitis_0556.jpg,7,7,0.9415592,723,0.902199387550354
+data/train/Seborrheic Dermatitis/seborrheic_dermatitis_0569.jpg,7,7,0.61699826,243,0.90631902217865
+data/train/Seborrheic Dermatitis/seborrheic_dermatitis_0608.jpg,7,7,0.97836256,361,0.9067342877388
+data/train/Seborrheic Dermatitis/seborrheic_dermatitis_0619.jpg,7,7,0.59636724,481,0.9131580591201782
+data/train/Seborrheic Dermatitis/seborrheic_dermatitis_0621.jpg,7,7,0.9095734,361,0.9269815683364868
+data/train/Seborrheic Dermatitis/seborrheic_dermatitis_0662.jpg,7,7,0.90850013,708,0.9240670800209044
+data/train/Seborrheic Dermatitis/seborrheic_dermatitis_0727.jpg,7,7,0.6404945,1533,0.8791220188140869
+data/train/Seborrheic Dermatitis/seborrheic_dermatitis_0740.jpg,7,7,0.8384053,1392,0.9131107330322266
+data/train/Seborrheic Dermatitis/seborrheic_dermatitis_0764.jpg,7,7,0.5086508,1138,0.8687466382980347
+data/train/Seborrheic Dermatitis/seborrheic_dermatitis_0784.jpg,7,7,0.92506003,1175,0.9093440175056458
+data/train/Seborrheic Dermatitis/seborrheic_dermatitis_0800.jpg,7,7,0.66143596,1478,0.9120872020721436
+data/train/Seborrheic Dermatitis/seborrheic_dermatitis_0826.jpg,7,7,0.9399646,1623,0.9115355610847472
+data/train/Seborrheic Dermatitis/seborrheic_dermatitis_0831.jpg,7,7,0.8599853,1310,0.9074810743331908
+data/train/Seborrheic Dermatitis/seborrheic_dermatitis_0840.jpg,7,7,0.8094508,447,0.8900518417358398
+data/train/Seborrheic Dermatitis/seborrheic_dermatitis_0852.jpg,7,7,0.6182995,808,0.8782947659492493
+data/train/Seborrheic Dermatitis/seborrheic_dermatitis_0858.jpg,7,7,0.9746601,723,0.8950764536857605
+data/train/Seborrheic Dermatitis/seborrheic_dermatitis_0859.jpg,7,7,0.91248024,723,0.8934587240219116
+data/train/Seborrheic Dermatitis/seborrheic_dermatitis_0877.jpg,7,7,0.76838475,1452,0.88643479347229
+data/train/Seborrheic Dermatitis/seborrheic_dermatitis_0891.jpg,7,7,0.38371202,447,0.8735835552215576
+data/train/Seborrheic Dermatitis/seborrheic_dermatitis_0908.jpg,7,7,0.9012963,1104,0.9254205226898192
+data/train/Seborrheic Dermatitis/seborrheic_dermatitis_0923.jpg,7,7,0.52533686,481,0.917527973651886
+data/train/Seborrheic Dermatitis/seborrheic_dermatitis_0939.jpg,7,7,0.63123786,243,0.9136570692062378
+data/train/Seborrheic Dermatitis/seborrheic_dermatitis_0959.jpg,7,7,0.6765809,836,0.8880554437637329
+data/train/Seborrheic Dermatitis/seborrheic_dermatitis_0971.jpg,7,7,0.86034065,931,0.9263123273849488
+data/train/Seborrheic Dermatitis/seborrheic_dermatitis_0985.jpg,7,7,0.46242225,1138,0.911298930644989
+data/train/Seborrheic Dermatitis/seborrheic_dermatitis_0990.jpg,7,7,0.9357247,243,0.9139781594276428
+data/train/Seborrheic Dermatitis/seborrheic_dermatitis_0996.jpg,7,7,0.9065733,723,0.8367554545402527
+data/train/Seborrheic Dermatitis/seborrheic_dermatitis_1016.jpg,7,7,0.86130327,243,0.9379938840866088
+data/train/Seborrheic Dermatitis/seborrheic_dermatitis_1021.jpg,7,7,0.90504414,723,0.9139969348907472
+data/train/Seborrheic Dermatitis/seborrheic_dermatitis_1023.jpg,7,7,0.47652128,481,0.8999814987182617
+data/train/Seborrheic Dermatitis/seborrheic_dermatitis_1030.jpg,7,7,0.94011116,848,0.9253623485565186
+data/train/Seborrheic Dermatitis/seborrheic_dermatitis_1031.jpg,7,7,0.80053085,836,0.891016960144043
+data/train/Seborrheic Dermatitis/seborrheic_dermatitis_1032.jpg,7,7,0.8635281,1036,0.8860045075416565
+data/train/Seborrheic Dermatitis/seborrheic_dermatitis_1049.jpg,7,7,0.9120509,1370,0.9138860702514648
+data/train/Seborrheic Dermatitis/seborrheic_dermatitis_1053.jpg,7,7,0.9171891,361,0.917464554309845
+data/train/Seborrheic Dermatitis/seborrheic_dermatitis_1087.jpg,7,7,0.8686269,1392,0.9183077812194824
+data/train/Seborrheic Dermatitis/seborrheic_dermatitis_1094.jpg,7,7,0.8672687,708,0.8980041146278381
+data/train/Seborrheic Dermatitis/seborrheic_dermatitis_1101.jpg,7,7,0.8796642,1409,0.8786730170249939
+data/train/Seborrheic Dermatitis/seborrheic_dermatitis_1106.jpg,7,7,0.9213327,1557,0.881179690361023
+data/train/Seborrheic Dermatitis/seborrheic_dermatitis_1116.jpg,7,7,0.92644876,1175,0.892275869846344
+data/train/Seborrheic Dermatitis/seborrheic_dermatitis_1158.jpg,7,7,0.84471995,975,0.8727118372917175
+data/train/Seborrheic Dermatitis/seborrheic_dermatitis_1163.jpg,7,7,0.48178118,314,0.9094352722167968
+data/train/Seborrheic Dermatitis/seborrheic_dermatitis_1189.jpg,7,7,0.7651774,931,0.9085996747016908
+data/train/Seborrheic Dermatitis/seborrheic_dermatitis_1191.jpg,7,7,0.9072713,361,0.9127286076545716
+data/train/Seborrheic Dermatitis/seborrheic_dermatitis_1194.jpg,7,7,0.9351571,575,0.9378930330276488
+data/train/Telogen Effluvium/telogen_effluvium_0014.jpg,8,7,0.30794278,212,0.8632010817527771
+data/train/Telogen Effluvium/telogen_effluvium_0021.jpg,8,8,0.86826146,192,0.9038453698158264
+data/train/Telogen Effluvium/telogen_effluvium_0023.jpg,8,8,0.9451545,129,0.9199211597442628
+data/train/Telogen Effluvium/telogen_effluvium_0048.jpg,8,8,0.8895314,467,0.910713791847229
+data/train/Telogen Effluvium/telogen_effluvium_0082.jpg,8,8,0.43992436,212,0.8943768739700317
+data/train/Telogen Effluvium/telogen_effluvium_0091.jpg,8,8,0.7233977,298,0.8625727295875549
+data/train/Telogen Effluvium/telogen_effluvium_0095.jpg,8,8,0.7967964,823,0.8992803692817688
+data/train/Telogen Effluvium/telogen_effluvium_0098.jpg,8,8,0.82256883,298,0.8756612539291382
+data/train/Telogen Effluvium/telogen_effluvium_0107.jpg,8,8,0.9531097,628,0.9100579023361206
+data/train/Telogen Effluvium/telogen_effluvium_0113.jpg,8,8,0.6903005,407,0.9135175943374634
+data/train/Telogen Effluvium/telogen_effluvium_0163.jpg,8,8,0.90111643,471,0.9021306037902832
+data/train/Telogen Effluvium/telogen_effluvium_0166.jpg,8,8,0.92686886,298,0.904610276222229
+data/train/Telogen Effluvium/telogen_effluvium_0172.jpg,8,0,0.30863115,212,0.8913041353225708
+data/train/Telogen Effluvium/telogen_effluvium_0185.jpg,8,8,0.8887614,129,0.9188228845596312
+data/train/Telogen Effluvium/telogen_effluvium_0188.jpg,8,4,0.24950567,212,0.8703474998474121
+data/train/Telogen Effluvium/telogen_effluvium_0222.jpg,8,8,0.8994119,407,0.903641402721405
+data/train/Telogen Effluvium/telogen_effluvium_0226.jpg,8,8,0.66519064,298,0.8950563669204712
+data/train/Telogen Effluvium/telogen_effluvium_0241.jpg,8,8,0.73549604,407,0.8970284461975098
+data/train/Telogen Effluvium/telogen_effluvium_0255.jpg,8,8,0.75173223,467,0.91669362783432
+data/train/Telogen Effluvium/telogen_effluvium_0256.jpg,8,8,0.88751733,467,0.8685740232467651
+data/train/Telogen Effluvium/telogen_effluvium_0273.jpg,8,9,0.21307835,212,0.8559671640396118
+data/train/Telogen Effluvium/telogen_effluvium_0292.jpg,8,8,0.8025967,600,0.9131094217300416
+data/train/Telogen Effluvium/telogen_effluvium_0293.jpg,8,8,0.85397047,823,0.9050980806350708
+data/train/Telogen Effluvium/telogen_effluvium_0295.jpg,8,8,0.9194059,467,0.9125477075576782
+data/train/Telogen Effluvium/telogen_effluvium_0317.jpg,8,8,0.948107,471,0.906894326210022
+data/train/Telogen Effluvium/telogen_effluvium_0322.jpg,8,8,0.88442516,192,0.9137885570526124
+data/train/Telogen Effluvium/telogen_effluvium_0330.jpg,8,8,0.86343575,676,0.920546054840088
+data/train/Telogen Effluvium/telogen_effluvium_0332.jpg,8,8,0.92989606,467,0.8717472553253174
+data/train/Telogen Effluvium/telogen_effluvium_0339.jpg,8,8,0.87814415,1040,0.9171247482299804
+data/train/Telogen Effluvium/telogen_effluvium_0343.jpg,8,8,0.8695691,1135,0.9204565286636353
+data/train/Telogen Effluvium/telogen_effluvium_0353.jpg,8,8,0.96460354,467,0.9010390639305116
+data/train/Telogen Effluvium/telogen_effluvium_0378.jpg,8,8,0.73839426,600,0.8849630355834961
+data/train/Telogen Effluvium/telogen_effluvium_0385.jpg,8,8,0.86212003,471,0.9339390993118286
+data/train/Telogen Effluvium/telogen_effluvium_0410.jpg,8,8,0.83579725,407,0.8971842527389526
+data/train/Telogen Effluvium/telogen_effluvium_0421.jpg,8,8,0.9658196,823,0.9082016944885254
+data/train/Telogen Effluvium/telogen_effluvium_0422.jpg,8,8,0.24664223,212,0.8754462599754333
+data/train/Telogen Effluvium/telogen_effluvium_0423.jpg,8,7,0.22847374,212,0.8575239181518555
+data/train/Telogen Effluvium/telogen_effluvium_0440.jpg,8,8,0.93258625,467,0.9234026670455932
+data/train/Telogen Effluvium/telogen_effluvium_0447.jpg,8,8,0.89010334,192,0.884680986404419
+data/train/Telogen Effluvium/telogen_effluvium_0450.jpg,8,8,0.96136606,1205,0.916717529296875
+data/train/Telogen Effluvium/telogen_effluvium_0455.jpg,8,8,0.92449296,192,0.9145786762237548
+data/train/Telogen Effluvium/telogen_effluvium_0468.jpg,8,8,0.48622823,751,0.9061870574951172
+data/train/Telogen Effluvium/telogen_effluvium_0481.jpg,8,8,0.8575572,407,0.9078594446182252
+data/train/Telogen Effluvium/telogen_effluvium_0483.jpg,8,8,0.82816017,600,0.9149677753448486
+data/train/Telogen Effluvium/telogen_effluvium_0491.jpg,8,8,0.9648354,1135,0.9138445854187012
+data/train/Telogen Effluvium/telogen_effluvium_0495.jpg,8,8,0.9287218,467,0.9075127840042114
+data/train/Telogen Effluvium/telogen_effluvium_0508.jpg,8,7,0.24643654,212,0.8736464381217957
+data/train/Telogen Effluvium/telogen_effluvium_0516.jpg,8,1,0.30196524,212,0.857863187789917
+data/train/Telogen Effluvium/telogen_effluvium_0520.jpg,8,8,0.789766,407,0.922516942024231
+data/train/Telogen Effluvium/telogen_effluvium_0547.jpg,8,8,0.70032823,298,0.8662245273590088
+data/train/Telogen Effluvium/telogen_effluvium_0566.jpg,8,8,0.8746578,407,0.903326690196991
+data/train/Telogen Effluvium/telogen_effluvium_0581.jpg,8,8,0.9402048,1040,0.9487130641937256
+data/train/Telogen Effluvium/telogen_effluvium_0585.jpg,8,8,0.2632146,212,0.8848787546157837
+data/train/Telogen Effluvium/telogen_effluvium_0590.jpg,8,8,0.77479786,600,0.870542049407959
+data/train/Telogen Effluvium/telogen_effluvium_0623.jpg,8,8,0.45305106,212,0.8850110769271851
+data/train/Telogen Effluvium/telogen_effluvium_0633.jpg,8,8,0.92920023,1135,0.9198113679885864
+data/train/Telogen Effluvium/telogen_effluvium_0655.jpg,8,8,0.8612545,407,0.9265284538269044
+data/train/Telogen Effluvium/telogen_effluvium_0670.jpg,8,8,0.93340427,823,0.9163047075271606
+data/train/Telogen Effluvium/telogen_effluvium_0671.jpg,8,8,0.8794978,810,0.9161854386329652
+data/train/Telogen Effluvium/telogen_effluvium_0694.jpg,8,8,0.9255124,129,0.908566117286682
+data/train/Telogen Effluvium/telogen_effluvium_0700.jpg,8,8,0.5384799,751,0.9008193612098694
+data/train/Telogen Effluvium/telogen_effluvium_0706.jpg,8,8,0.8179735,1324,0.9086403250694276
+data/train/Telogen Effluvium/telogen_effluvium_0717.jpg,8,8,0.9217212,810,0.9241414666175842
+data/train/Telogen Effluvium/telogen_effluvium_0744.jpg,8,8,0.86947715,407,0.9099571108818054
+data/train/Telogen Effluvium/telogen_effluvium_0758.jpg,8,8,0.9764505,823,0.9103970527648926
+data/train/Telogen Effluvium/telogen_effluvium_0760.jpg,8,8,0.80970573,1512,0.9337639212608336
+data/train/Telogen Effluvium/telogen_effluvium_0787.jpg,8,8,0.6423614,192,0.9128463268280028
+data/train/Telogen Effluvium/telogen_effluvium_0863.jpg,8,8,0.91389006,298,0.8989561796188354
+data/train/Telogen Effluvium/telogen_effluvium_0867.jpg,8,8,0.9133813,471,0.9053555130958556
+data/train/Telogen Effluvium/telogen_effluvium_0877.jpg,8,8,0.88062286,192,0.8916035890579224
+data/train/Telogen Effluvium/telogen_effluvium_0899.jpg,8,8,0.66523945,407,0.8999869227409363
+data/train/Telogen Effluvium/telogen_effluvium_0900.jpg,8,8,0.9056492,192,0.8916087746620178
+data/train/Telogen Effluvium/telogen_effluvium_0905.jpg,8,8,0.6529367,1060,0.8948369026184082
+data/train/Telogen Effluvium/telogen_effluvium_0912.jpg,8,8,0.9480545,467,0.9070515036582948
+data/train/Telogen Effluvium/telogen_effluvium_0965.jpg,8,8,0.8966217,467,0.9012277126312256
+data/train/Telogen Effluvium/telogen_effluvium_0984.jpg,8,8,0.8914916,810,0.9159595966339112
+data/train/Telogen Effluvium/telogen_effluvium_1009.jpg,8,4,0.2614793,212,0.8702436685562134
+data/train/Telogen Effluvium/telogen_effluvium_1013.jpg,8,8,0.9381795,676,0.9189938306808472
+data/train/Telogen Effluvium/telogen_effluvium_1015.jpg,8,8,0.79188746,809,0.8833237886428833
+data/train/Telogen Effluvium/telogen_effluvium_1034.jpg,8,8,0.9225337,467,0.9025201797485352
+data/train/Telogen Effluvium/telogen_effluvium_1046.jpg,8,8,0.7664522,407,0.8976032733917236
+data/train/Telogen Effluvium/telogen_effluvium_1047.jpg,8,8,0.86556506,407,0.9025933742523192
+data/train/Telogen Effluvium/telogen_effluvium_1051.jpg,8,8,0.5967506,407,0.8981685638427734
+data/train/Telogen Effluvium/telogen_effluvium_1059.jpg,8,8,0.38847858,212,0.8905943632125854
+data/train/Telogen Effluvium/telogen_effluvium_1088.jpg,8,8,0.87338746,809,0.8633629083633423
+data/train/Telogen Effluvium/telogen_effluvium_1116.jpg,8,8,0.9177413,471,0.8960127830505371
+data/train/Telogen Effluvium/telogen_effluvium_1119.jpg,8,8,0.83127856,751,0.936127543449402
+data/train/Telogen Effluvium/telogen_effluvium_1148.jpg,8,8,0.8785854,1205,0.8947111368179321
+data/train/Telogen Effluvium/telogen_effluvium_1152.jpg,8,8,0.24092637,212,0.88156658411026
+data/train/Telogen Effluvium/telogen_effluvium_1166.jpg,8,8,0.81876487,810,0.9197402000427246
+data/train/Telogen Effluvium/telogen_effluvium_1168.jpg,8,8,0.7810824,902,0.92295902967453
+data/train/Telogen Effluvium/telogen_effluvium_1171.jpg,8,8,0.9422746,471,0.8848139643669128
+data/train/Tinea Capitis/tinea_capitis_0012.jpg,9,9,0.9167626,1494,0.9146325588226318
+data/train/Tinea Capitis/tinea_capitis_0066.jpg,9,9,0.96873504,1143,0.905195951461792
+data/train/Tinea Capitis/tinea_capitis_0107.jpg,9,9,0.687791,347,0.8789932727813721
+data/train/Tinea Capitis/tinea_capitis_0130.jpg,9,9,0.9353333,1144,0.9235917329788208
+data/train/Tinea Capitis/tinea_capitis_0147.jpg,9,9,0.8603955,558,0.9235748052597046
+data/train/Tinea Capitis/tinea_capitis_0158.jpg,9,9,0.96208626,594,0.8982258439064026
+data/train/Tinea Capitis/tinea_capitis_0166.jpg,9,9,0.870329,972,0.9106571674346924
+data/train/Tinea Capitis/tinea_capitis_0168.jpg,9,9,0.9422392,1225,0.8955506086349487
+data/train/Tinea Capitis/tinea_capitis_0210.jpg,9,9,0.7296485,1053,0.8977565765380859
+data/train/Tinea Capitis/tinea_capitis_0219.jpg,9,9,0.8601601,1228,0.9265872240066528
+data/train/Tinea Capitis/tinea_capitis_0229.jpg,9,9,0.9061298,1115,0.9002737998962402
+data/train/Tinea Capitis/tinea_capitis_0266.jpg,9,9,0.851705,798,0.8901646733283997
+data/train/Tinea Capitis/tinea_capitis_0271.jpg,9,9,0.9174159,890,0.8875713348388672
+data/train/Tinea Capitis/tinea_capitis_0274.jpg,9,9,0.93927306,681,0.9070149660110474
+data/train/Tinea Capitis/tinea_capitis_0285.jpg,9,9,0.9046746,642,0.921155333518982
+data/train/Tinea Capitis/tinea_capitis_0288.jpg,9,9,0.8874456,613,0.8928133249282837
+data/train/Tinea Capitis/tinea_capitis_0294.jpg,9,9,0.74881816,972,0.8949350118637085
+data/train/Tinea Capitis/tinea_capitis_0324.jpg,9,9,0.8624929,558,0.9172110557556152
+data/train/Tinea Capitis/tinea_capitis_0334.jpg,9,9,0.96186066,841,0.9278099536895752
+data/train/Tinea Capitis/tinea_capitis_0336.jpg,9,9,0.7684585,497,0.8685089349746704
+data/train/Tinea Capitis/tinea_capitis_0338.jpg,9,9,0.5532613,942,0.899905800819397
+data/train/Tinea Capitis/tinea_capitis_0342.jpg,9,9,0.89581853,841,0.874164879322052
+data/train/Tinea Capitis/tinea_capitis_0343.jpg,9,9,0.79649293,1506,0.9062893390655518
+data/train/Tinea Capitis/tinea_capitis_0350.jpg,9,9,0.94097036,1384,0.8997116088867188
+data/train/Tinea Capitis/tinea_capitis_0368.jpg,9,9,0.814085,915,0.8880261182785034
+data/train/Tinea Capitis/tinea_capitis_0381.jpg,9,9,0.95913464,965,0.9023616313934326
+data/train/Tinea Capitis/tinea_capitis_0382.jpg,9,9,0.66843694,1403,0.892241358757019
+data/train/Tinea Capitis/tinea_capitis_0405.jpg,9,9,0.8554353,1386,0.9117038249969482
+data/train/Tinea Capitis/tinea_capitis_0407.jpg,9,9,0.8177376,386,0.9332780838012696
+data/train/Tinea Capitis/tinea_capitis_0456.jpg,9,9,0.90207165,1051,0.8993721008300781
+data/train/Tinea Capitis/tinea_capitis_0467.jpg,9,9,0.8991552,1603,0.907074809074402
+data/train/Tinea Capitis/tinea_capitis_0494.jpg,9,9,0.90856266,904,0.9350079298019408
+data/train/Tinea Capitis/tinea_capitis_0499.jpg,9,9,0.8318837,386,0.9233468174934388
+data/train/Tinea Capitis/tinea_capitis_0502.jpg,9,9,0.850953,890,0.8702032566070557
+data/train/Tinea Capitis/tinea_capitis_0513.jpg,9,9,0.7219615,915,0.905125379562378
+data/train/Tinea Capitis/tinea_capitis_0544.jpg,9,9,0.7376285,1141,0.9084407091140748
+data/train/Tinea Capitis/tinea_capitis_0576.jpg,9,9,0.883313,1551,0.9030725359916688
+data/train/Tinea Capitis/tinea_capitis_0580.jpg,9,9,0.9508635,1448,0.8998222947120667
+data/train/Tinea Capitis/tinea_capitis_0587.jpg,9,9,0.83724475,1053,0.9184712171554564
+data/train/Tinea Capitis/tinea_capitis_0606.jpg,9,9,0.83024895,1115,0.8886816501617432
+data/train/Tinea Capitis/tinea_capitis_0608.jpg,9,9,0.942782,839,0.9123866558074952
+data/train/Tinea Capitis/tinea_capitis_0620.jpg,9,9,0.94494146,678,0.8920032978057861
+data/train/Tinea Capitis/tinea_capitis_0625.jpg,9,9,0.87341267,497,0.8906519412994385
+data/train/Tinea Capitis/tinea_capitis_0642.jpg,9,9,0.8857055,1386,0.9215521216392516
+data/train/Tinea Capitis/tinea_capitis_0651.jpg,9,9,0.78610814,942,0.9158105850219728
+data/train/Tinea Capitis/tinea_capitis_0667.jpg,9,9,0.8947338,1239,0.8988032341003418
+data/train/Tinea Capitis/tinea_capitis_0671.jpg,9,9,0.90293205,757,0.913748025894165
+data/train/Tinea Capitis/tinea_capitis_0689.jpg,9,9,0.91299903,534,0.9136041402816772
+data/train/Tinea Capitis/tinea_capitis_0694.jpg,9,9,0.80349636,1439,0.8920948505401611
+data/train/Tinea Capitis/tinea_capitis_0714.jpg,9,9,0.69970405,1045,0.8788356781005859
+data/train/Tinea Capitis/tinea_capitis_0725.jpg,9,9,0.8268021,903,0.8968816995620728
+data/train/Tinea Capitis/tinea_capitis_0731.jpg,9,9,0.9242067,1273,0.8917819261550903
+data/train/Tinea Capitis/tinea_capitis_0739.jpg,9,9,0.89712685,1079,0.9032644629478456
+data/train/Tinea Capitis/tinea_capitis_0740.jpg,9,9,0.8862327,1445,0.897761344909668
+data/train/Tinea Capitis/tinea_capitis_0743.jpg,9,9,0.7992781,1198,0.914689302444458
+data/train/Tinea Capitis/tinea_capitis_0770.jpg,9,9,0.77909935,1152,0.9085091352462769
+data/train/Tinea Capitis/tinea_capitis_0775.jpg,9,9,0.8946918,972,0.8969268202781677
+data/train/Tinea Capitis/tinea_capitis_0791.jpg,9,9,0.9155854,1265,0.9321283102035522
+data/train/Tinea Capitis/tinea_capitis_0795.jpg,9,9,0.8671971,1345,0.9149720668792723
+data/train/Tinea Capitis/tinea_capitis_0821.jpg,9,9,0.91962934,1485,0.91132789850235
+data/train/Tinea Capitis/tinea_capitis_0851.jpg,9,9,0.98367494,1442,0.9013563394546508
+data/train/Tinea Capitis/tinea_capitis_0854.jpg,9,9,0.9374725,613,0.866426944732666
+data/train/Tinea Capitis/tinea_capitis_0855.jpg,9,9,0.8937782,565,0.9266983270645142
+data/train/Tinea Capitis/tinea_capitis_0868.jpg,9,9,0.9048576,1485,0.9180783033370972
+data/train/Tinea Capitis/tinea_capitis_0874.jpg,9,9,0.8727825,942,0.9163635969161988
+data/train/Tinea Capitis/tinea_capitis_0899.jpg,9,9,0.88424224,1273,0.8641140460968018
+data/train/Tinea Capitis/tinea_capitis_0906.jpg,9,9,0.9122423,915,0.8853940963745117
+data/train/Tinea Capitis/tinea_capitis_0913.jpg,9,9,0.84416044,565,0.8740018010139465
+data/train/Tinea Capitis/tinea_capitis_0920.jpg,9,9,0.9193653,1144,0.9014074206352234
+data/train/Tinea Capitis/tinea_capitis_0929.jpg,9,9,0.88330144,1469,0.8938531875610352
+data/train/Tinea Capitis/tinea_capitis_0972.jpg,9,9,0.84929156,1407,0.8883159160614014
+data/train/Tinea Capitis/tinea_capitis_0980.jpg,9,9,0.8564278,890,0.8778867721557617
+data/train/Tinea Capitis/tinea_capitis_0994.jpg,9,9,0.9244135,542,0.9133070707321168
+data/train/Tinea Capitis/tinea_capitis_1013.jpg,9,9,0.9072903,1265,0.8936889171600342
+data/train/Tinea Capitis/tinea_capitis_1020.jpg,9,9,0.466144,1130,0.8785382509231567
+data/train/Tinea Capitis/tinea_capitis_1029.jpg,9,9,0.9290321,1017,0.9129015803337096
+data/train/Tinea Capitis/tinea_capitis_1044.jpg,9,9,0.8421111,678,0.8950870037078857
+data/train/Tinea Capitis/tinea_capitis_1046.jpg,9,9,0.9384275,965,0.9021694660186768
+data/train/Tinea Capitis/tinea_capitis_1064.jpg,9,9,0.84410167,1144,0.9244192838668824
+data/train/Tinea Capitis/tinea_capitis_1065.jpg,9,9,0.5110069,1403,0.9156250953674316
+data/train/Tinea Capitis/tinea_capitis_1071.jpg,9,9,0.7148795,1476,0.902297019958496
+data/train/Tinea Capitis/tinea_capitis_1088.jpg,9,9,0.7378529,699,0.8907980918884277
+data/train/Tinea Capitis/tinea_capitis_1120.jpg,9,9,0.8574583,968,0.8765602111816406
+data/train/Tinea Capitis/tinea_capitis_1135.jpg,9,9,0.6869272,1152,0.8710877895355225
+data/train/Tinea Capitis/tinea_capitis_1166.jpg,9,9,0.8814085,982,0.8923208713531494
+data/train/Tinea Capitis/tinea_capitis_1171.jpg,9,9,0.90166616,1345,0.9128258228302002
+data/train/Tinea Capitis/tinea_capitis_1187.jpg,9,9,0.6967886,1592,0.9142938256263732
+data/train/Tinea Capitis/tinea_capitis_1194.jpg,9,9,0.787567,1407,0.9097816944122314
+data/val/Alopecia Areata/alopecia_areata_0033.jpg,0,0,0.9280988,544,0.9115605354309082
+data/val/Alopecia Areata/alopecia_areata_0070.jpg,0,0,0.95605224,320,0.8622782826423645
+data/val/Alopecia Areata/alopecia_areata_0087.jpg,0,0,0.9146643,860,0.916976809501648
+data/val/Alopecia Areata/alopecia_areata_0165.jpg,0,0,0.95097065,346,0.8830239176750183
+data/val/Alopecia Areata/alopecia_areata_0174.jpg,0,0,0.94637346,320,0.8872212767601013
+data/val/Alopecia Areata/alopecia_areata_0280.jpg,0,0,0.9367334,860,0.9037221670150756
+data/val/Alopecia Areata/alopecia_areata_0333.jpg,0,0,0.9326459,1166,0.8934061527252197
+data/val/Alopecia Areata/alopecia_areata_0437.jpg,0,0,0.9086966,544,0.8864405751228333
+data/val/Alopecia Areata/alopecia_areata_0457.jpg,0,0,0.9530774,346,0.8804409503936768
+data/val/Alopecia Areata/alopecia_areata_0498.jpg,0,0,0.86879647,860,0.8850817680358887
+data/val/Alopecia Areata/alopecia_areata_0565.jpg,0,0,0.93325496,346,0.8477263450622559
+data/val/Alopecia Areata/alopecia_areata_0567.jpg,0,0,0.930352,544,0.8697131872177124
+data/val/Alopecia Areata/alopecia_areata_0641.jpg,0,0,0.8824599,1009,0.9003305435180664
+data/val/Alopecia Areata/alopecia_areata_0676.jpg,0,0,0.8309075,1166,0.8906781673431396
+data/val/Alopecia Areata/alopecia_areata_0697.jpg,0,0,0.8590575,1481,0.9280561208724976
+data/val/Alopecia Areata/alopecia_areata_0702.jpg,0,0,0.9128574,860,0.9290108680725098
+data/val/Alopecia Areata/alopecia_areata_0776.jpg,0,0,0.7329054,1257,0.8838385939598083
+data/val/Alopecia Areata/alopecia_areata_0777.jpg,0,0,0.79975593,919,0.9132971167564392
+data/val/Alopecia Areata/alopecia_areata_0797.jpg,0,0,0.911443,1166,0.8984580039978027
+data/val/Alopecia Areata/alopecia_areata_0828.jpg,0,0,0.92241436,1630,0.8840317130088806
+data/val/Alopecia Areata/alopecia_areata_0832.jpg,0,0,0.95228595,1009,0.9006719589233398
+data/val/Alopecia Areata/alopecia_areata_0869.jpg,0,0,0.9458747,781,0.9171638488769532
+data/val/Alopecia Areata/alopecia_areata_0902.jpg,0,0,0.9663847,346,0.8187942504882812
+data/val/Alopecia Areata/alopecia_areata_0955.jpg,0,0,0.8897381,544,0.916506290435791
+data/val/Alopecia Areata/alopecia_areata_0960.jpg,0,0,0.9357865,1009,0.9101645946502686
+data/val/Alopecia Areata/alopecia_areata_0977.jpg,0,0,0.7181592,869,0.8898764848709106
+data/val/Alopecia Areata/alopecia_areata_1002.jpg,0,0,0.857736,860,0.9055432081222534
+data/val/Alopecia Areata/alopecia_areata_1017.jpg,0,0,0.8080012,860,0.9336224794387816
+data/val/Alopecia Areata/alopecia_areata_1054.jpg,0,0,0.8777892,860,0.9220926761627196
+data/val/Alopecia Areata/alopecia_areata_1100.jpg,0,0,0.8169732,860,0.9014515280723572
+data/val/Alopecia Areata/alopecia_areata_1121.jpg,0,0,0.76140076,320,0.8824799656867981
+data/val/Alopecia Areata/alopecia_areata_1185.jpg,0,0,0.7122589,869,0.8191081285476685
+data/val/Alopecia Areata/alopecia_areata_1188.jpg,0,0,0.80064625,919,0.9299192428588868
+data/val/Contact Dermatitis/contact_dermatitis_0033.jpg,1,1,0.92172384,696,0.9229934215545654
+data/val/Contact Dermatitis/contact_dermatitis_0164.jpg,1,1,0.95834136,509,0.9116820693016052
+data/val/Contact Dermatitis/contact_dermatitis_0176.jpg,1,1,0.94692063,1037,0.9156193733215332
+data/val/Contact Dermatitis/contact_dermatitis_0202.jpg,1,1,0.9451152,696,0.9189876317977904
+data/val/Contact Dermatitis/contact_dermatitis_0388.jpg,1,1,0.8947184,397,0.9122757911682128
+data/val/Contact Dermatitis/contact_dermatitis_0658.jpg,1,1,0.77845263,492,0.9315953254699708
+data/val/Contact Dermatitis/contact_dermatitis_0676.jpg,1,1,0.7964887,680,0.8981369733810425
+data/val/Contact Dermatitis/contact_dermatitis_0934.jpg,1,1,0.9567439,1328,0.931587815284729
+data/val/Contact Dermatitis/contact_dermatitis_0946.jpg,1,1,0.867801,850,0.9177423715591432
+data/val/Contact Dermatitis/contact_dermatitis_0977.jpg,1,1,0.9202707,680,0.9052629470825196
+data/val/Contact Dermatitis/contact_dermatitis_1185.jpg,1,1,0.8785285,1406,0.9264764785766602
+data/val/Folliculitis/folliculitis_0006.jpg,2,2,0.91278607,786,0.9286171197891236
+data/val/Folliculitis/folliculitis_0033.jpg,2,2,0.93410474,954,0.8824561834335327
+data/val/Folliculitis/folliculitis_0076.jpg,2,2,0.89150876,315,0.9156289100646972
+data/val/Folliculitis/folliculitis_0165.jpg,2,2,0.94980067,545,0.8846026062965393
+data/val/Folliculitis/folliculitis_0233.jpg,2,2,0.9042855,835,0.8937126398086548
+data/val/Folliculitis/folliculitis_0280.jpg,2,2,0.6488997,515,0.9285477995872498
+data/val/Folliculitis/folliculitis_0286.jpg,2,2,0.8580991,545,0.8972017168998718
+data/val/Folliculitis/folliculitis_0307.jpg,2,2,0.8668724,1124,0.9134979844093324
+data/val/Folliculitis/folliculitis_0673.jpg,2,2,0.64266014,515,0.9319766759872437
+data/val/Folliculitis/folliculitis_0708.jpg,2,2,0.92559874,709,0.9288627505302428
+data/val/Folliculitis/folliculitis_0938.jpg,2,2,0.7130639,593,0.8885561227798462
+data/val/Folliculitis/folliculitis_1017.jpg,2,2,0.89987403,1264,0.9329410791397096
+data/val/Folliculitis/folliculitis_1019.jpg,2,2,0.9315516,459,0.8954940438270569
+data/val/Head Lice/head_lice_0029.jpg,3,3,0.95182747,1451,0.8851650953292847
+data/val/Head Lice/head_lice_0140.jpg,3,3,0.85080594,312,0.8812761902809143
+data/val/Head Lice/head_lice_0305.jpg,3,3,0.8565748,1539,0.8718898296356201
+data/val/Head Lice/head_lice_0362.jpg,3,3,0.8566343,530,0.9120632410049438
+data/val/Head Lice/head_lice_0618.jpg,3,3,0.8641827,88,0.9043662548065186
+data/val/Head Lice/head_lice_1033.jpg,3,3,0.84046143,1359,0.924956440925598
+data/val/Head Lice/head_lice_1185.jpg,3,3,0.8075991,186,0.9331660270690918
+data/val/Lichen Planus/lichen_planus_0164.jpg,4,4,0.9065112,94,0.8746970891952515
+data/val/Lichen Planus/lichen_planus_0307.jpg,4,4,0.9330909,191,0.8902480006217957
+data/val/Lichen Planus/lichen_planus_0426.jpg,4,4,0.84893614,562,0.8849210739135742
+data/val/Lichen Planus/lichen_planus_0441.jpg,4,4,0.91340643,1396,0.926061987876892
+data/val/Lichen Planus/lichen_planus_0902.jpg,4,4,0.88430786,199,0.8866748809814453
+data/val/Lichen Planus/lichen_planus_1007.jpg,4,4,0.8443132,427,0.8643437623977661
+data/val/Lichen Planus/lichen_planus_1019.jpg,4,4,0.899393,1582,0.9115852117538452
+data/val/Lichen Planus/lichen_planus_1054.jpg,4,4,0.7770676,1210,0.9196608066558838
+data/val/Male Pattern Baldness/male_pattern_baldness_0084.jpg,5,0,0.5453829,332,0.8595889806747437
+data/val/Male Pattern Baldness/male_pattern_baldness_0174.jpg,5,0,0.30470103,332,0.8398829698562622
+data/val/Male Pattern Baldness/male_pattern_baldness_0415.jpg,5,0,0.35390925,332,0.8341575264930725
+data/val/Male Pattern Baldness/male_pattern_baldness_0426.jpg,5,5,0.8651439,742,0.8995410203933716
+data/val/Male Pattern Baldness/male_pattern_baldness_0592.jpg,5,0,0.4063427,332,0.8418744206428528
+data/val/Male Pattern Baldness/male_pattern_baldness_0696.jpg,5,0,0.4212556,332,0.8326468467712402
+data/val/Male Pattern Baldness/male_pattern_baldness_0910.jpg,5,0,0.3095177,332,0.8300597667694092
+data/val/Male Pattern Baldness/male_pattern_baldness_0917.jpg,5,9,0.3439482,332,0.8243345022201538
+data/val/Male Pattern Baldness/male_pattern_baldness_1188.jpg,5,5,0.7700719,95,0.8989461660385132
+data/val/Psoriasis/psoriasis_0202.jpg,6,6,0.81361634,1200,0.9245933890342712
+data/val/Psoriasis/psoriasis_0666.jpg,6,6,0.9183228,269,0.911229968070984
+data/val/Psoriasis/psoriasis_0678.jpg,6,6,0.8535944,444,0.889750063419342
+data/val/Psoriasis/psoriasis_0779.jpg,6,6,0.907357,627,0.91244375705719
+data/val/Psoriasis/psoriasis_0790.jpg,6,6,0.91411173,1242,0.8926618099212646
+data/val/Psoriasis/psoriasis_0808.jpg,6,6,0.8393537,1242,0.901106059551239
+data/val/Psoriasis/psoriasis_0977.jpg,6,6,0.73445886,479,0.9067263603210448
+data/val/Psoriasis/psoriasis_1100.jpg,6,6,0.6719406,1200,0.8862930536270142
+data/val/Psoriasis/psoriasis_1151.jpg,6,6,0.7491313,268,0.903581440448761
+data/val/Seborrheic Dermatitis/seborrheic_dermatitis_0029.jpg,7,7,0.88801575,708,0.933439552783966
+data/val/Seborrheic Dermatitis/seborrheic_dermatitis_0052.jpg,7,7,0.86245465,1536,0.9071377515792848
+data/val/Seborrheic Dermatitis/seborrheic_dermatitis_0076.jpg,7,7,0.9385752,361,0.91264671087265
+data/val/Seborrheic Dermatitis/seborrheic_dermatitis_0286.jpg,7,7,0.81742907,1599,0.9193245768547058
+data/val/Seborrheic Dermatitis/seborrheic_dermatitis_0304.jpg,7,7,0.75856817,314,0.9187233448028564
+data/val/Seborrheic Dermatitis/seborrheic_dermatitis_0337.jpg,7,7,0.86695904,1467,0.8916653394699097
+data/val/Seborrheic Dermatitis/seborrheic_dermatitis_0436.jpg,7,7,0.89531,1096,0.9317798614501952
+data/val/Seborrheic Dermatitis/seborrheic_dermatitis_0441.jpg,7,7,0.9518868,723,0.8871102929115295
+data/val/Seborrheic Dermatitis/seborrheic_dermatitis_0626.jpg,7,7,0.85668087,717,0.9185572266578674
+data/val/Seborrheic Dermatitis/seborrheic_dermatitis_0763.jpg,7,7,0.9272839,361,0.9426190853118896
+data/val/Seborrheic Dermatitis/seborrheic_dermatitis_0777.jpg,7,7,0.90233725,243,0.9120922088623048
+data/val/Seborrheic Dermatitis/seborrheic_dermatitis_0977.jpg,7,7,0.93970674,723,0.8693679571151733
+data/val/Seborrheic Dermatitis/seborrheic_dermatitis_1002.jpg,7,7,0.9074095,931,0.9005901217460632
+data/val/Seborrheic Dermatitis/seborrheic_dermatitis_1054.jpg,7,7,0.883619,394,0.8945575952529907
+data/val/Telogen Effluvium/telogen_effluvium_0108.jpg,8,8,0.79835635,471,0.9162817001342772
+data/val/Telogen Effluvium/telogen_effluvium_0359.jpg,8,8,0.8642496,471,0.9091166257858276
+data/val/Telogen Effluvium/telogen_effluvium_0592.jpg,8,8,0.8865351,809,0.865169882774353
+data/val/Telogen Effluvium/telogen_effluvium_0828.jpg,8,8,0.8709241,676,0.89890456199646
+data/val/Telogen Effluvium/telogen_effluvium_0903.jpg,8,8,0.84173745,751,0.9271209239959716
+data/val/Telogen Effluvium/telogen_effluvium_0955.jpg,8,8,0.898198,467,0.9178961515426636
+data/val/Telogen Effluvium/telogen_effluvium_1033.jpg,8,8,0.70980746,407,0.9029476642608644
+data/val/Tinea Capitis/tinea_capitis_0043.jpg,9,9,0.8948457,791,0.8697503805160522
+data/val/Tinea Capitis/tinea_capitis_0084.jpg,9,9,0.9140152,1542,0.9127075672149658
+data/val/Tinea Capitis/tinea_capitis_0233.jpg,9,9,0.8885236,1017,0.9028048515319824
+data/val/Tinea Capitis/tinea_capitis_0359.jpg,9,9,0.84905934,642,0.9137743711471558
+data/val/Tinea Capitis/tinea_capitis_0607.jpg,9,9,0.9682569,1445,0.8896466493606567
+data/val/Tinea Capitis/tinea_capitis_0673.jpg,9,9,0.8976611,1476,0.907754361629486
+data/val/Tinea Capitis/tinea_capitis_0777.jpg,9,9,0.9002239,791,0.8870398998260498
+data/val/Tinea Capitis/tinea_capitis_0804.jpg,9,9,0.796621,542,0.897780179977417
+data/val/Tinea Capitis/tinea_capitis_0935.jpg,9,9,0.8474415,613,0.9004591703414917
+data/val/Tinea Capitis/tinea_capitis_1067.jpg,9,9,0.91652954,965,0.9177346229553224
+data/val/Tinea Capitis/tinea_capitis_1173.jpg,9,9,0.708787,1581,0.8674806356430054
+data/test/Alopecia Areata/alopecia_areata_0081.jpg,0,0,0.908827,781,0.9230015873908995
+data/test/Alopecia Areata/alopecia_areata_0088.jpg,0,0,0.95234215,320,0.8855152726173401
+data/test/Alopecia Areata/alopecia_areata_0115.jpg,0,0,0.9509575,322,0.8348009586334229
+data/test/Alopecia Areata/alopecia_areata_0349.jpg,0,0,0.91100264,440,0.8875855207443237
+data/test/Alopecia Areata/alopecia_areata_0371.jpg,0,0,0.9142081,440,0.8569951057434082
+data/test/Alopecia Areata/alopecia_areata_0519.jpg,0,0,0.818226,320,0.9006056785583496
+data/test/Alopecia Areata/alopecia_areata_0589.jpg,0,0,0.9042106,320,0.8959826231002808
+data/test/Alopecia Areata/alopecia_areata_0629.jpg,0,0,0.9672926,959,0.8971073627471924
+data/test/Alopecia Areata/alopecia_areata_0881.jpg,0,0,0.9410349,496,0.906607449054718
+data/test/Alopecia Areata/alopecia_areata_0901.jpg,0,0,0.91470087,320,0.8963171243667603
+data/test/Alopecia Areata/alopecia_areata_1014.jpg,0,0,0.8666576,410,0.9195498824119568
+data/test/Contact Dermatitis/contact_dermatitis_0036.jpg,1,1,0.93977034,422,0.927763819694519
+data/test/Contact Dermatitis/contact_dermatitis_0088.jpg,1,1,0.9579385,1576,0.8950822353363037
+data/test/Contact Dermatitis/contact_dermatitis_0104.jpg,1,1,0.9322741,1025,0.917191743850708
+data/test/Contact Dermatitis/contact_dermatitis_0148.jpg,1,1,0.929649,1297,0.8727834224700928
+data/test/Contact Dermatitis/contact_dermatitis_0326.jpg,1,1,0.9458505,691,0.9044866561889648
+data/test/Contact Dermatitis/contact_dermatitis_0371.jpg,1,1,0.97403085,1235,0.9185919761657716
+data/test/Contact Dermatitis/contact_dermatitis_0379.jpg,1,1,0.8539569,526,0.8606356978416443
+data/test/Contact Dermatitis/contact_dermatitis_0399.jpg,1,1,0.95853275,340,0.9208543300628662
+data/test/Contact Dermatitis/contact_dermatitis_0420.jpg,1,1,0.93326825,340,0.908443808555603
+data/test/Contact Dermatitis/contact_dermatitis_0469.jpg,1,1,0.9537615,1106,0.8832866549491882
+data/test/Contact Dermatitis/contact_dermatitis_0505.jpg,1,1,0.95596313,340,0.9232394099235536
+data/test/Contact Dermatitis/contact_dermatitis_0519.jpg,1,1,0.9473328,1235,0.9164311289787292
+data/test/Contact Dermatitis/contact_dermatitis_0630.jpg,1,1,0.7251985,1613,0.8455307483673096
+data/test/Contact Dermatitis/contact_dermatitis_0637.jpg,1,1,0.7284314,526,0.8886481523513794
+data/test/Contact Dermatitis/contact_dermatitis_0643.jpg,1,1,0.9583189,1306,0.9044350385665894
+data/test/Contact Dermatitis/contact_dermatitis_0682.jpg,1,1,0.9594419,340,0.9121921062469482
+data/test/Contact Dermatitis/contact_dermatitis_0802.jpg,1,1,0.8934329,526,0.8672711849212646
+data/test/Contact Dermatitis/contact_dermatitis_0825.jpg,1,1,0.8749619,340,0.9096728563308716
+data/test/Contact Dermatitis/contact_dermatitis_0896.jpg,1,1,0.905276,704,0.8876757621765137
+data/test/Contact Dermatitis/contact_dermatitis_0992.jpg,1,1,0.9267649,561,0.9136734008789062
+data/test/Contact Dermatitis/contact_dermatitis_0999.jpg,1,1,0.8747887,1025,0.9151818752288818
+data/test/Contact Dermatitis/contact_dermatitis_1079.jpg,1,1,0.9391586,1509,0.8966982364654541
+data/test/Contact Dermatitis/contact_dermatitis_1084.jpg,1,1,0.9213819,1297,0.8932394981384277
+data/test/Contact Dermatitis/contact_dermatitis_1122.jpg,1,1,0.946004,704,0.8833651542663574
+data/test/Contact Dermatitis/contact_dermatitis_1147.jpg,1,1,0.915468,1410,0.8661731481552124
+data/test/Contact Dermatitis/contact_dermatitis_1170.jpg,1,1,0.93484926,1266,0.9053266048431396
+data/test/Contact Dermatitis/contact_dermatitis_1183.jpg,1,1,0.95385844,422,0.9182744026184082
+data/test/Folliculitis/folliculitis_0062.jpg,2,2,0.96173537,571,0.9165791273117064
+data/test/Folliculitis/folliculitis_0088.jpg,2,2,0.943906,443,0.9300518035888672
+data/test/Folliculitis/folliculitis_0104.jpg,2,2,0.9592589,1162,0.8458161950111389
+data/test/Folliculitis/folliculitis_0134.jpg,2,2,0.9388023,571,0.9088785648345948
+data/test/Folliculitis/folliculitis_0243.jpg,2,2,0.95399046,376,0.9081969261169434
+data/test/Folliculitis/folliculitis_0399.jpg,2,2,0.9426506,571,0.8978697061538696
+data/test/Folliculitis/folliculitis_0403.jpg,2,2,0.9255347,706,0.8829930424690247
+data/test/Folliculitis/folliculitis_0438.jpg,2,2,0.92552173,706,0.8467339277267456
+data/test/Folliculitis/folliculitis_0454.jpg,2,2,0.9087785,906,0.9027863144874572
+data/test/Folliculitis/folliculitis_0461.jpg,2,2,0.9566221,1093,0.816266655921936
+data/test/Folliculitis/folliculitis_0505.jpg,2,2,0.899329,443,0.901578724384308
+data/test/Folliculitis/folliculitis_0540.jpg,2,2,0.9580719,581,0.8962377905845642
+data/test/Folliculitis/folliculitis_0637.jpg,2,2,0.9505811,906,0.8940730690956116
+data/test/Folliculitis/folliculitis_0999.jpg,2,2,0.94526047,1357,0.8781269788742065
+data/test/Folliculitis/folliculitis_1077.jpg,2,2,0.9379319,1162,0.8353754281997681
+data/test/Folliculitis/folliculitis_1093.jpg,2,2,0.8880706,315,0.884936511516571
+data/test/Folliculitis/folliculitis_1107.jpg,2,2,0.93136746,906,0.9100286960601808
+data/test/Folliculitis/folliculitis_1126.jpg,2,2,0.92178655,706,0.8784555196762085
+data/test/Head Lice/head_lice_0088.jpg,3,3,0.88500786,1263,0.8713219165802002
+data/test/Head Lice/head_lice_0115.jpg,3,3,0.8171893,1504,0.909040629863739
+data/test/Head Lice/head_lice_0138.jpg,3,3,0.8980984,1631,0.8919553756713867
+data/test/Head Lice/head_lice_0148.jpg,3,3,0.79837525,1247,0.8875831365585327
+data/test/Head Lice/head_lice_0161.jpg,3,3,0.9274667,1027,0.89516681432724
+data/test/Head Lice/head_lice_0268.jpg,3,3,0.9049606,1102,0.9003989696502686
+data/test/Head Lice/head_lice_0404.jpg,3,3,0.88267875,530,0.9183429479599
+data/test/Head Lice/head_lice_0420.jpg,3,3,0.84792733,476,0.8617019653320312
+data/test/Head Lice/head_lice_0427.jpg,3,3,0.96084386,465,0.9080852270126344
+data/test/Head Lice/head_lice_0505.jpg,3,3,0.949118,677,0.9021113514900208
+data/test/Head Lice/head_lice_0537.jpg,3,3,0.9340574,1103,0.8674718141555786
+data/test/Head Lice/head_lice_0584.jpg,3,3,0.87219316,1247,0.895179808139801
+data/test/Head Lice/head_lice_0735.jpg,3,3,0.85323393,185,0.9013060927391052
+data/test/Head Lice/head_lice_0737.jpg,3,3,0.9025042,1247,0.9167218208312988
+data/test/Head Lice/head_lice_1014.jpg,3,3,0.9100977,185,0.8909403085708618
+data/test/Head Lice/head_lice_1084.jpg,3,3,0.91687304,1598,0.9089388847351074
+data/test/Head Lice/head_lice_1093.jpg,3,3,0.8991681,1288,0.917595148086548
+data/test/Head Lice/head_lice_1126.jpg,3,3,0.8458955,1447,0.9269912242889404
+data/test/Head Lice/head_lice_1162.jpg,3,3,0.9342418,1102,0.8623374104499817
+data/test/Lichen Planus/lichen_planus_0036.jpg,4,4,0.87395215,304,0.9080015420913696
+data/test/Lichen Planus/lichen_planus_0115.jpg,4,4,0.9511353,1237,0.8912407159805298
+data/test/Lichen Planus/lichen_planus_0134.jpg,4,4,0.9492439,257,0.8943908214569092
+data/test/Lichen Planus/lichen_planus_0161.jpg,4,4,0.93958855,1237,0.8765859007835388
+data/test/Lichen Planus/lichen_planus_0268.jpg,4,4,0.9531387,830,0.9208228588104248
+data/test/Lichen Planus/lichen_planus_0319.jpg,4,4,0.66281265,562,0.9176561236381532
+data/test/Lichen Planus/lichen_planus_0349.jpg,4,4,0.9677468,1363,0.8990780711174011
+data/test/Lichen Planus/lichen_planus_0527.jpg,4,4,0.9061801,830,0.8866708278656006
+data/test/Lichen Planus/lichen_planus_0540.jpg,4,4,0.9653149,94,0.8986611366271973
+data/test/Lichen Planus/lichen_planus_0589.jpg,4,4,0.92169166,661,0.92312753200531
+data/test/Lichen Planus/lichen_planus_0648.jpg,4,4,0.8768541,716,0.926561713218689
+data/test/Lichen Planus/lichen_planus_0723.jpg,4,4,0.8156563,191,0.869895339012146
+data/test/Lichen Planus/lichen_planus_0724.jpg,4,4,0.96738094,1341,0.8917993903160095
+data/test/Lichen Planus/lichen_planus_0750.jpg,4,4,0.90495336,1396,0.9132049083709716
+data/test/Lichen Planus/lichen_planus_0802.jpg,4,4,0.6969786,1462,0.884179413318634
+data/test/Lichen Planus/lichen_planus_0817.jpg,4,4,0.9725178,1621,0.913032293319702
+data/test/Lichen Planus/lichen_planus_0827.jpg,4,4,0.7995665,1424,0.8147974014282227
+data/test/Lichen Planus/lichen_planus_0880.jpg,4,4,0.903608,830,0.9237275123596193
+data/test/Lichen Planus/lichen_planus_0881.jpg,4,4,0.9402794,716,0.902918577194214
+data/test/Lichen Planus/lichen_planus_0901.jpg,4,4,0.9439443,257,0.9042865037918092
+data/test/Lichen Planus/lichen_planus_0937.jpg,4,4,0.97346866,304,0.9015661478042604
+data/test/Lichen Planus/lichen_planus_0961.jpg,4,4,0.9563486,830,0.906334638595581
+data/test/Lichen Planus/lichen_planus_1070.jpg,4,4,0.9366299,1362,0.92169189453125
+data/test/Lichen Planus/lichen_planus_1083.jpg,4,4,0.90147716,816,0.859209418296814
+data/test/Lichen Planus/lichen_planus_1107.jpg,4,4,0.965389,1237,0.9132975339889526
+data/test/Lichen Planus/lichen_planus_1126.jpg,4,4,0.94444495,716,0.8985899686813354
+data/test/Lichen Planus/lichen_planus_1170.jpg,4,4,0.9749224,94,0.9173800945281982
+data/test/Male Pattern Baldness/male_pattern_baldness_0037.jpg,5,5,0.7263514,95,0.862791121006012
+data/test/Male Pattern Baldness/male_pattern_baldness_0081.jpg,5,5,0.88758713,1562,0.938325047492981
+data/test/Male Pattern Baldness/male_pattern_baldness_0104.jpg,5,5,0.35259253,1139,0.8163695931434631
+data/test/Male Pattern Baldness/male_pattern_baldness_0111.jpg,5,5,0.8841736,520,0.9171603918075562
+data/test/Male Pattern Baldness/male_pattern_baldness_0134.jpg,5,5,0.9102681,554,0.9077768325805664
+data/test/Male Pattern Baldness/male_pattern_baldness_0215.jpg,5,5,0.9068217,554,0.892094612121582
+data/test/Male Pattern Baldness/male_pattern_baldness_0224.jpg,5,5,0.8228162,1169,0.9139841794967652
+data/test/Male Pattern Baldness/male_pattern_baldness_0243.jpg,5,5,0.9247798,973,0.9072474241256714
+data/test/Male Pattern Baldness/male_pattern_baldness_0308.jpg,5,5,0.8627774,1218,0.9181045293807985
+data/test/Male Pattern Baldness/male_pattern_baldness_0319.jpg,5,5,0.9289794,973,0.882581353187561
+data/test/Male Pattern Baldness/male_pattern_baldness_0340.jpg,5,5,0.89612174,724,0.8935184478759766
+data/test/Male Pattern Baldness/male_pattern_baldness_0371.jpg,5,5,0.8745493,895,0.9239648580551147
+data/test/Male Pattern Baldness/male_pattern_baldness_0379.jpg,5,5,0.9786159,1607,0.9226484298706056
+data/test/Male Pattern Baldness/male_pattern_baldness_0393.jpg,5,5,0.77471316,95,0.8393867015838623
+data/test/Male Pattern Baldness/male_pattern_baldness_0420.jpg,5,5,0.8826796,662,0.9089945554733276
+data/test/Male Pattern Baldness/male_pattern_baldness_0461.jpg,5,5,0.8661914,662,0.8913275003433228
+data/test/Male Pattern Baldness/male_pattern_baldness_0518.jpg,5,5,0.73190093,95,0.8807436227798462
+data/test/Male Pattern Baldness/male_pattern_baldness_0527.jpg,5,5,0.9130611,1169,0.9255157709121704
+data/test/Male Pattern Baldness/male_pattern_baldness_0543.jpg,5,5,0.84319454,662,0.8891092538833618
+data/test/Male Pattern Baldness/male_pattern_baldness_0584.jpg,5,5,0.87719667,520,0.8947211503982544
+data/test/Male Pattern Baldness/male_pattern_baldness_0589.jpg,5,5,0.82818747,724,0.9093296527862548
+data/test/Male Pattern Baldness/male_pattern_baldness_0646.jpg,5,5,0.88357854,724,0.9037528038024902
+data/test/Male Pattern Baldness/male_pattern_baldness_0659.jpg,5,5,0.84837043,1323,0.8392233848571777
+data/test/Male Pattern Baldness/male_pattern_baldness_0682.jpg,5,5,0.8884444,554,0.9014360308647156
+data/test/Male Pattern Baldness/male_pattern_baldness_0684.jpg,5,5,0.86252403,662,0.8854211568832397
+data/test/Male Pattern Baldness/male_pattern_baldness_0723.jpg,5,5,0.8843961,554,0.920164167881012
+data/test/Male Pattern Baldness/male_pattern_baldness_0748.jpg,5,0,0.22931649,1139,0.8472965955734253
+data/test/Male Pattern Baldness/male_pattern_baldness_0817.jpg,5,9,0.38472593,1139,0.8238099813461304
+data/test/Male Pattern Baldness/male_pattern_baldness_0835.jpg,5,5,0.885295,662,0.9192155003547668
+data/test/Male Pattern Baldness/male_pattern_baldness_0872.jpg,5,5,0.83495283,895,0.9097690582275392
+data/test/Male Pattern Baldness/male_pattern_baldness_0875.jpg,5,5,0.64346397,339,0.7799245119094849
+data/test/Male Pattern Baldness/male_pattern_baldness_0880.jpg,5,5,0.8580487,520,0.9079568982124328
+data/test/Male Pattern Baldness/male_pattern_baldness_0886.jpg,5,5,0.9288983,520,0.9068249464035034
+data/test/Male Pattern Baldness/male_pattern_baldness_0927.jpg,5,5,0.83556414,1218,0.9448152184486388
+data/test/Male Pattern Baldness/male_pattern_baldness_0992.jpg,5,5,0.9075597,520,0.8980200886726379
+data/test/Male Pattern Baldness/male_pattern_baldness_1077.jpg,5,5,0.9418997,724,0.8878143429756165
+data/test/Male Pattern Baldness/male_pattern_baldness_1083.jpg,5,5,0.8767444,724,0.8666445016860962
+data/test/Male Pattern Baldness/male_pattern_baldness_1084.jpg,5,5,0.8865245,973,0.9319599866867064
+data/test/Male Pattern Baldness/male_pattern_baldness_1093.jpg,5,5,0.5708068,1139,0.8191457986831665
+data/test/Male Pattern Baldness/male_pattern_baldness_1111.jpg,5,5,0.920065,554,0.9155683517456056
+data/test/Male Pattern Baldness/male_pattern_baldness_1125.jpg,5,5,0.8507414,724,0.8526309728622437
+data/test/Male Pattern Baldness/male_pattern_baldness_1154.jpg,5,5,0.9128449,1607,0.9270839691162108
+data/test/Male Pattern Baldness/male_pattern_baldness_1183.jpg,5,5,0.8317256,554,0.887596070766449
+data/test/Psoriasis/psoriasis_0036.jpg,6,6,0.84584683,444,0.9195262789726256
+data/test/Psoriasis/psoriasis_0037.jpg,6,6,0.9311735,1460,0.901174545288086
+data/test/Psoriasis/psoriasis_0088.jpg,6,6,0.95368505,775,0.8904442191123962
+data/test/Psoriasis/psoriasis_0134.jpg,6,6,0.9277419,775,0.8940897583961487
+data/test/Psoriasis/psoriasis_0137.jpg,6,6,0.89834154,1625,0.9310464859008788
+data/test/Psoriasis/psoriasis_0138.jpg,6,6,0.87322783,785,0.8785935044288635
+data/test/Psoriasis/psoriasis_0319.jpg,6,6,0.62956274,444,0.9187647104263306
+data/test/Psoriasis/psoriasis_0340.jpg,6,8,0.309454,272,0.7973070740699768
+data/test/Psoriasis/psoriasis_0543.jpg,6,6,0.93796927,785,0.8867515325546265
+data/test/Psoriasis/psoriasis_0629.jpg,6,9,0.23652878,272,0.8012137413024902
+data/test/Psoriasis/psoriasis_0646.jpg,6,8,0.23706304,272,0.7835832238197327
+data/test/Psoriasis/psoriasis_0748.jpg,6,6,0.9169061,1167,0.8946676254272461
+data/test/Psoriasis/psoriasis_0786.jpg,6,6,0.9133588,785,0.9225108027458192
+data/test/Psoriasis/psoriasis_0817.jpg,6,6,0.8789342,775,0.9116783142089844
+data/test/Psoriasis/psoriasis_0827.jpg,6,6,0.8154036,1167,0.8962906002998352
+data/test/Psoriasis/psoriasis_0835.jpg,6,6,0.94549674,412,0.8904625177383423
+data/test/Psoriasis/psoriasis_0872.jpg,6,6,0.91101176,785,0.9242833852767944
+data/test/Psoriasis/psoriasis_0886.jpg,6,6,0.920206,1031,0.9165607690811156
+data/test/Psoriasis/psoriasis_0999.jpg,6,6,0.8689546,1547,0.892895519733429
+data/test/Psoriasis/psoriasis_1036.jpg,6,6,0.90061253,1031,0.9097261428833008
+data/test/Psoriasis/psoriasis_1084.jpg,6,6,0.92484534,1179,0.8724910020828247
+data/test/Psoriasis/psoriasis_1111.jpg,6,6,0.88501894,785,0.8927813172340393
+data/test/Psoriasis/psoriasis_1125.jpg,6,6,0.90745836,785,0.9301742911338806
+data/test/Psoriasis/psoriasis_1147.jpg,6,6,0.92585826,252,0.9088996648788452
+data/test/Psoriasis/psoriasis_1154.jpg,6,6,0.9290311,269,0.902133584022522
+data/test/Seborrheic Dermatitis/seborrheic_dermatitis_0051.jpg,7,7,0.79091924,1096,0.8808103799819946
+data/test/Seborrheic Dermatitis/seborrheic_dermatitis_0081.jpg,7,7,0.92606294,411,0.8826465010643005
+data/test/Seborrheic Dermatitis/seborrheic_dermatitis_0090.jpg,7,7,0.7588117,221,0.8979083895683289
+data/test/Seborrheic Dermatitis/seborrheic_dermatitis_0094.jpg,7,7,0.9052442,411,0.8957622051239014
+data/test/Seborrheic Dermatitis/seborrheic_dermatitis_0110.jpg,7,7,0.79314053,1300,0.8943924307823181
+data/test/Seborrheic Dermatitis/seborrheic_dermatitis_0134.jpg,7,7,0.59684384,897,0.8747201561927795
+data/test/Seborrheic Dermatitis/seborrheic_dermatitis_0141.jpg,7,7,0.857182,1319,0.8849952220916748
+data/test/Seborrheic Dermatitis/seborrheic_dermatitis_0308.jpg,7,7,0.95565623,1559,0.934019148349762
+data/test/Seborrheic Dermatitis/seborrheic_dermatitis_0319.jpg,7,7,0.867036,708,0.883635401725769
+data/test/Seborrheic Dermatitis/seborrheic_dermatitis_0326.jpg,7,7,0.9287232,723,0.8459393382072449
+data/test/Seborrheic Dermatitis/seborrheic_dermatitis_0412.jpg,7,7,0.8059709,1583,0.8996062278747559
+data/test/Seborrheic Dermatitis/seborrheic_dermatitis_0420.jpg,7,7,0.84893984,411,0.8830499649047852
+data/test/Seborrheic Dermatitis/seborrheic_dermatitis_0427.jpg,7,7,0.88080823,1500,0.912964642047882
+data/test/Seborrheic Dermatitis/seborrheic_dermatitis_0461.jpg,7,7,0.8649545,411,0.891381025314331
+data/test/Seborrheic Dermatitis/seborrheic_dermatitis_0519.jpg,7,7,0.7770209,1319,0.8869553804397583
+data/test/Seborrheic Dermatitis/seborrheic_dermatitis_0537.jpg,7,7,0.94439876,361,0.9045020937919616
+data/test/Seborrheic Dermatitis/seborrheic_dermatitis_0629.jpg,7,7,0.90161026,714,0.9144396781921388
+data/test/Seborrheic Dermatitis/seborrheic_dermatitis_0643.jpg,7,7,0.8779488,221,0.8805621862411499
+data/test/Seborrheic Dermatitis/seborrheic_dermatitis_0659.jpg,7,7,0.9203223,411,0.8914703726768494
+data/test/Seborrheic Dermatitis/seborrheic_dermatitis_0735.jpg,7,7,0.8824725,714,0.9056831002235411
+data/test/Seborrheic Dermatitis/seborrheic_dermatitis_0802.jpg,7,7,0.9348034,714,0.8966120481491089
+data/test/Seborrheic Dermatitis/seborrheic_dermatitis_0803.jpg,7,7,0.9332831,411,0.8898429870605469
+data/test/Seborrheic Dermatitis/seborrheic_dermatitis_0827.jpg,7,7,0.78965575,1096,0.8870208263397217
+data/test/Seborrheic Dermatitis/seborrheic_dermatitis_0896.jpg,7,3,0.28580096,630,0.845708966255188
+data/test/Seborrheic Dermatitis/seborrheic_dermatitis_0945.jpg,7,7,0.8476398,708,0.9117559790611268
+data/test/Seborrheic Dermatitis/seborrheic_dermatitis_1036.jpg,7,7,0.5324784,447,0.8715837001800537
+data/test/Seborrheic Dermatitis/seborrheic_dermatitis_1125.jpg,7,7,0.9083723,714,0.9213468432426452
+data/test/Seborrheic Dermatitis/seborrheic_dermatitis_1154.jpg,7,7,0.76613766,1356,0.8841070532798767
+data/test/Telogen Effluvium/telogen_effluvium_0037.jpg,8,8,0.80569184,1054,0.9136017560958862
+data/test/Telogen Effluvium/telogen_effluvium_0115.jpg,8,8,0.9328662,628,0.8942113518714905
+data/test/Telogen Effluvium/telogen_effluvium_0351.jpg,8,8,0.9177423,1189,0.8805810213088989
+data/test/Telogen Effluvium/telogen_effluvium_0371.jpg,8,8,0.9457663,634,0.9273143410682678
+data/test/Telogen Effluvium/telogen_effluvium_0399.jpg,8,8,0.9853005,407,0.9149438142776488
+data/test/Telogen Effluvium/telogen_effluvium_0469.jpg,8,8,0.70105535,840,0.930247128009796
+data/test/Telogen Effluvium/telogen_effluvium_0527.jpg,8,8,0.88638204,1041,0.9046472311019896
+data/test/Telogen Effluvium/telogen_effluvium_0540.jpg,8,8,0.8993749,1041,0.9073091745376588
+data/test/Telogen Effluvium/telogen_effluvium_0631.jpg,8,8,0.9317973,628,0.9004008769989014
+data/test/Telogen Effluvium/telogen_effluvium_0637.jpg,8,8,0.94465405,634,0.8890612125396729
+data/test/Telogen Effluvium/telogen_effluvium_0646.jpg,8,8,0.8938058,1041,0.9171693325042723
+data/test/Telogen Effluvium/telogen_effluvium_0750.jpg,8,8,0.9349693,615,0.9123488068580629
+data/test/Telogen Effluvium/telogen_effluvium_0780.jpg,8,8,0.9051072,615,0.8966837525367737
+data/test/Telogen Effluvium/telogen_effluvium_0786.jpg,8,8,0.21237068,212,0.8700900077819824
+data/test/Telogen Effluvium/telogen_effluvium_0827.jpg,8,8,0.8719134,1377,0.8980045318603516
+data/test/Telogen Effluvium/telogen_effluvium_0856.jpg,8,8,0.9335948,810,0.9204636812210084
+data/test/Telogen Effluvium/telogen_effluvium_0881.jpg,8,8,0.94466156,1189,0.8674508929252625
+data/test/Telogen Effluvium/telogen_effluvium_0886.jpg,8,8,0.38904515,212,0.8931045532226562
+data/test/Telogen Effluvium/telogen_effluvium_0933.jpg,8,8,0.9267638,1189,0.8712418079376221
+data/test/Telogen Effluvium/telogen_effluvium_1107.jpg,8,8,0.55324894,1278,0.8538304567337036
+data/test/Telogen Effluvium/telogen_effluvium_1154.jpg,8,8,0.9285788,1501,0.8966814875602722
+data/test/Tinea Capitis/tinea_capitis_0081.jpg,9,9,0.91766,923,0.8922699093818665
+data/test/Tinea Capitis/tinea_capitis_0090.jpg,9,9,0.7905176,1458,0.8762373924255371
+data/test/Tinea Capitis/tinea_capitis_0121.jpg,9,9,0.9144591,567,0.9032286405563354
+data/test/Tinea Capitis/tinea_capitis_0134.jpg,9,9,0.82450414,979,0.9062983393669128
+data/test/Tinea Capitis/tinea_capitis_0148.jpg,9,9,0.58355254,1389,0.8888474702835083
+data/test/Tinea Capitis/tinea_capitis_0161.jpg,9,9,0.8838317,1116,0.8980872631072998
+data/test/Tinea Capitis/tinea_capitis_0243.jpg,9,9,0.85608774,1008,0.8847850561141968
+data/test/Tinea Capitis/tinea_capitis_0404.jpg,9,9,0.86541563,1435,0.8993692398071289
+data/test/Tinea Capitis/tinea_capitis_0454.jpg,9,9,0.9235292,904,0.8851487636566162
+data/test/Tinea Capitis/tinea_capitis_0505.jpg,9,9,0.68908054,1077,0.8969686031341553
+data/test/Tinea Capitis/tinea_capitis_0584.jpg,9,9,0.79042053,933,0.9017542004585266
+data/test/Tinea Capitis/tinea_capitis_0629.jpg,9,9,0.7804493,386,0.917822003364563
+data/test/Tinea Capitis/tinea_capitis_0659.jpg,9,9,0.9418694,1307,0.8818411231040955
+data/test/Tinea Capitis/tinea_capitis_0684.jpg,9,9,0.925978,1498,0.9029915928840636
+data/test/Tinea Capitis/tinea_capitis_0737.jpg,9,9,0.8244117,1318,0.9086524248123168
+data/test/Tinea Capitis/tinea_capitis_0927.jpg,9,9,0.9333426,1252,0.8680720925331116
+data/test/Tinea Capitis/tinea_capitis_0961.jpg,9,9,0.84789145,567,0.906192421913147
+data/test/Tinea Capitis/tinea_capitis_0992.jpg,9,9,0.8563129,1123,0.8887437582015991
+data/test/Tinea Capitis/tinea_capitis_1093.jpg,9,9,0.8931064,580,0.8685746192932129
+data/test/Tinea Capitis/tinea_capitis_1122.jpg,9,9,0.87593985,1006,0.9161025285720824
+data/test/Tinea Capitis/tinea_capitis_1147.jpg,9,9,0.86350965,1492,0.9111487865447998

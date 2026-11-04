@@ -1,0 +1,6 @@
+{
+  "model": "mobilenetv3_seed1",
+  "temperature": 0.5441123843193054,
+  "reject_threshold": 0.5412211418151855,
+  "target": 0.98
+}

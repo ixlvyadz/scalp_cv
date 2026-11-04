@@ -1,0 +1,4 @@
+model,macro-F1 (all test),accuracy (all test),"accuracy, lowest-similarity third","accuracy, other two thirds"
+ResNet50,0.9565 ± 0.0026,0.9571 ± 0.0025,0.8757 ± 0.0058,0.9979 ± 0.0019
+ConvNeXt-Tiny,0.9859 ± 0.0014,0.9863 ± 0.0013,0.9589 ± 0.0038,1.0000 ± 0.0000
+MobileNetV3-Large,0.9610 ± 0.0072,0.9616 ± 0.0072,0.8866 ± 0.0224,0.9992 ± 0.0007

@@ -1,0 +1,29 @@
+{
+  "classes": [
+    "Alopecia Areata",
+    "Contact Dermatitis",
+    "Folliculitis",
+    "Head Lice",
+    "Lichen Planus",
+    "Male Pattern Baldness",
+    "Psoriasis",
+    "Seborrheic Dermatitis",
+    "Telogen Effluvium",
+    "Tinea Capitis"
+  ],
+  "img_size": 224,
+  "resize": 255,
+  "mean": [
+    0.485,
+    0.456,
+    0.406
+  ],
+  "std": [
+    0.229,
+    0.224,
+    0.225
+  ],
+  "temperature": 0.5441123843193054,
+  "reject_threshold": 0.5412211418151855,
+  "model_file": "model_fp32.onnx"
+}

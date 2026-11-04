@@ -1,0 +1,11 @@
+class,recall,images,groups
+Alopecia Areata,1.0,98,23
+Contact Dermatitis,1.0,98,40
+Folliculitis,1.0,102,31
+Head Lice,1.0,96,51
+Lichen Planus,1.0,97,34
+Male Pattern Baldness,0.6565656565656566,99,17
+Psoriasis,0.8854166666666666,96,27
+Seborrheic Dermatitis,0.9894736842105263,95,50
+Telogen Effluvium,1.0,104,27
+Tinea Capitis,1.0,114,79

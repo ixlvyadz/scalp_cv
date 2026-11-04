@@ -1,0 +1,226 @@
+PS C:\Users\My Pc\Downloads\scalp_cv> (Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned) ; (& "c:\Users\My Pc\Downloads\scalp_cv\scalp_cv\.venv\Scripts\Activate.ps1")
+(.venv) PS C:\Users\My Pc\Downloads\scalp_cv> cd scalp_cv
+(.venv) PS C:\Users\My Pc\Downloads\scalp_cv\scalp_cv> foreach ($s in 1,2,3) {
+>>   python -m src.evaluate --model resnet50 --ckpt artifacts/checkpoints/resnet50_seed$s.pt --name resnet50_seed$s
+>>   python -m src.evaluate --model convnext_tiny --ckpt artifacts/checkpoints/convnext_tiny_seed$s.pt --name convnext_tiny_seed$s
+>>   python -m src.evaluate --model mobilenetv3_large_100 --ckpt artifacts/checkpoints/mobilenetv3_large_seed$s.pt --name mobilenetv3_seed$s
+>> }
+(.venv) PS C:\Users\My Pc\Downloads\scalp_cv\scalp_cv> foreach ($s in 2,3) { python -m src.train --config configs/baseline_resnet50.yaml --seed $s }                                                              
+device: cuda                                 
+images: {'train': 6081, 'val': 999, 'test': 1189}                     
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.   
+epoch 0: train_loss=1.8337 val_f1=0.4894 val_acc=0.5095 (64s)         
+epoch 1: train_loss=1.3910 val_f1=0.5534 val_acc=0.5716 (64s)
+epoch 2: train_loss=1.2049 val_f1=0.5884 val_acc=0.6036 (72s)
+epoch 3: train_loss=0.8876 val_f1=0.8087 val_acc=0.8168 (103s)
+epoch 4: train_loss=0.6792 val_f1=0.8797 val_acc=0.8849 (114s)
+epoch 5: train_loss=0.6230 val_f1=0.9103 val_acc=0.9129 (113s)
+epoch 6: train_loss=0.5930 val_f1=0.9268 val_acc=0.9309 (115s)
+epoch 7: train_loss=0.5779 val_f1=0.9358 val_acc=0.9399 (115s)
+epoch 8: train_loss=0.5686 val_f1=0.9378 val_acc=0.9419 (115s)
+epoch 9: train_loss=0.5607 val_f1=0.9455 val_acc=0.9489 (114s)
+epoch 10: train_loss=0.5572 val_f1=0.9456 val_acc=0.9489 (87s)
+epoch 11: train_loss=0.5519 val_f1=0.9408 val_acc=0.9449 (80s)
+epoch 12: train_loss=0.5494 val_f1=0.9431 val_acc=0.9469 (97s)
+epoch 13: train_loss=0.5469 val_f1=0.9446 val_acc=0.9479 (124s)
+epoch 14: train_loss=0.5456 val_f1=0.9434 val_acc=0.9469 (120s)
+epoch 15: train_loss=0.5435 val_f1=0.9433 val_acc=0.9469 (121s)
+epoch 16: train_loss=0.5422 val_f1=0.9371 val_acc=0.9419 (119s)
+early stopping
+best val macro-F1: 0.9456  ->  artifacts/checkpoints/resnet50_seed2.pt
+device: cuda
+images: {'train': 6081, 'val': 999, 'test': 1189}
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+epoch 0: train_loss=1.8496 val_f1=0.4548 val_acc=0.4665 (109s)
+epoch 1: train_loss=1.3894 val_f1=0.5256 val_acc=0.5435 (104s)
+epoch 2: train_loss=1.2058 val_f1=0.5951 val_acc=0.6176 (102s)
+epoch 3: train_loss=0.8822 val_f1=0.8269 val_acc=0.8358 (81s)
+epoch 4: train_loss=0.6779 val_f1=0.8745 val_acc=0.8799 (80s)
+epoch 5: train_loss=0.6227 val_f1=0.8986 val_acc=0.9029 (80s)
+epoch 6: train_loss=0.5932 val_f1=0.9324 val_acc=0.9359 (80s)
+epoch 7: train_loss=0.5763 val_f1=0.9332 val_acc=0.9369 (80s)
+epoch 8: train_loss=0.5671 val_f1=0.9347 val_acc=0.9389 (80s)
+epoch 9: train_loss=0.5641 val_f1=0.9389 val_acc=0.9429 (80s)
+epoch 10: train_loss=0.5553 val_f1=0.9392 val_acc=0.9429 (81s)
+epoch 11: train_loss=0.5548 val_f1=0.9301 val_acc=0.9359 (80s)
+epoch 12: train_loss=0.5497 val_f1=0.9457 val_acc=0.9489 (80s)
+epoch 13: train_loss=0.5465 val_f1=0.9323 val_acc=0.9379 (79s)
+epoch 14: train_loss=0.5445 val_f1=0.9359 val_acc=0.9409 (6610s)
+epoch 15: train_loss=0.5436 val_f1=0.9420 val_acc=0.9459 (78s)
+epoch 16: train_loss=0.5410 val_f1=0.9410 val_acc=0.9449 (116s)
+epoch 17: train_loss=0.5403 val_f1=0.9424 val_acc=0.9459 (121s)
+epoch 18: train_loss=0.5391 val_f1=0.9458 val_acc=0.9489 (122s)
+epoch 19: train_loss=0.5383 val_f1=0.9375 val_acc=0.9419 (121s)
+epoch 20: train_loss=0.5388 val_f1=0.9451 val_acc=0.9479 (123s)
+epoch 21: train_loss=0.5372 val_f1=0.9445 val_acc=0.9479 (123s)
+epoch 22: train_loss=0.5373 val_f1=0.9433 val_acc=0.9469 (107s)
+epoch 23: train_loss=0.5379 val_f1=0.9431 val_acc=0.9469 (83s)
+epoch 24: train_loss=0.5373 val_f1=0.9377 val_acc=0.9419 (111s)
+early stopping
+best val macro-F1: 0.9458  ->  artifacts/checkpoints/resnet50_seed3.pt
+(.venv) PS C:\Users\My Pc\Downloads\scalp_cv\scalp_cv> foreach ($s in 1,2,3) { python -m src.train --config configs/convnext_tiny.yaml --seed $s }
+device: cuda
+images: {'train': 6081, 'val': 999, 'test': 1189}
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+epoch 0: train_loss=1.0492 val_f1=0.7734 val_acc=0.7778 (108s)
+epoch 1: train_loss=0.7130 val_f1=0.8248 val_acc=0.8298 (103s)
+epoch 2: train_loss=0.6576 val_f1=0.8430 val_acc=0.8478 (107s)
+epoch 3: train_loss=0.8358 val_f1=0.9585 val_acc=0.9600 (128s)
+epoch 4: train_loss=0.5199 val_f1=0.9561 val_acc=0.9580 (123s)
+epoch 5: train_loss=0.5140 val_f1=0.9562 val_acc=0.9580 (122s)
+epoch 6: train_loss=0.5125 val_f1=0.9574 val_acc=0.9600 (123s)
+epoch 7: train_loss=0.5115 val_f1=0.9562 val_acc=0.9580 (123s)
+epoch 8: train_loss=0.5106 val_f1=0.9631 val_acc=0.9650 (125s)
+epoch 9: train_loss=0.5103 val_f1=0.9562 val_acc=0.9580 (127s)
+epoch 10: train_loss=0.5097 val_f1=0.9567 val_acc=0.9590 (123s)
+epoch 11: train_loss=0.5094 val_f1=0.9567 val_acc=0.9590 (124s)
+epoch 12: train_loss=0.5093 val_f1=0.9563 val_acc=0.9590 (124s)
+epoch 13: train_loss=0.5096 val_f1=0.9564 val_acc=0.9590 (124s)
+epoch 14: train_loss=0.5093 val_f1=0.9609 val_acc=0.9630 (124s)
+early stopping
+best val macro-F1: 0.9631  ->  artifacts/checkpoints/convnext_tiny_seed1.pt
+device: cuda
+images: {'train': 6081, 'val': 999, 'test': 1189}
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+epoch 0: train_loss=1.0479 val_f1=0.7375 val_acc=0.7508 (106s)
+epoch 1: train_loss=0.7132 val_f1=0.8121 val_acc=0.8178 (104s)
+epoch 2: train_loss=0.6541 val_f1=0.8328 val_acc=0.8378 (104s)
+epoch 3: train_loss=0.7567 val_f1=0.9565 val_acc=0.9590 (130s)
+epoch 4: train_loss=0.5226 val_f1=0.9729 val_acc=0.9740 (124s)
+epoch 5: train_loss=0.5184 val_f1=0.9593 val_acc=0.9610 (127s)
+epoch 6: train_loss=0.5125 val_f1=0.9635 val_acc=0.9650 (125s)
+epoch 7: train_loss=0.5113 val_f1=0.9728 val_acc=0.9740 (119s)
+epoch 8: train_loss=0.5105 val_f1=0.9574 val_acc=0.9600 (123s)
+epoch 9: train_loss=0.5101 val_f1=0.9566 val_acc=0.9590 (123s)
+epoch 10: train_loss=0.5099 val_f1=0.9564 val_acc=0.9590 (124s)
+early stopping
+best val macro-F1: 0.9729  ->  artifacts/checkpoints/convnext_tiny_seed2.pt
+device: cuda
+images: {'train': 6081, 'val': 999, 'test': 1189}
+epoch 0: train_loss=1.0718 val_f1=0.7589 val_acc=0.7708 (111s)
+epoch 1: train_loss=0.7155 val_f1=0.8292 val_acc=0.8348 (99s)
+epoch 2: train_loss=0.6582 val_f1=0.8562 val_acc=0.8599 (101s)
+epoch 3: train_loss=0.7510 val_f1=0.9492 val_acc=0.9510 (127s)
+epoch 4: train_loss=0.5203 val_f1=0.9556 val_acc=0.9570 (127s)
+epoch 5: train_loss=0.5144 val_f1=0.9524 val_acc=0.9540 (124s)
+epoch 6: train_loss=0.5126 val_f1=0.9559 val_acc=0.9580 (122s)
+epoch 7: train_loss=0.5109 val_f1=0.9559 val_acc=0.9580 (125s)
+epoch 8: train_loss=0.5110 val_f1=0.9551 val_acc=0.9570 (122s)
+epoch 9: train_loss=0.5100 val_f1=0.9541 val_acc=0.9560 (122s)
+epoch 10: train_loss=0.5097 val_f1=0.9521 val_acc=0.9540 (120s)
+epoch 11: train_loss=0.5095 val_f1=0.9533 val_acc=0.9550 (122s)
+epoch 12: train_loss=0.5094 val_f1=0.9552 val_acc=0.9570 (120s)
+epoch 13: train_loss=0.5091 val_f1=0.9542 val_acc=0.9560 (122s)
+early stopping
+best val macro-F1: 0.9559  ->  artifacts/checkpoints/convnext_tiny_seed3.pt
+(.venv) PS C:\Users\My Pc\Downloads\scalp_cv\scalp_cv> foreach ($s in 1,2,3) { python -m src.train --config configs/mobilenetv3.yaml --seed $s }  
+device: cuda
+images: {'train': 6081, 'val': 999, 'test': 1189}
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+epoch 0: train_loss=2.1736 val_f1=0.3828 val_acc=0.3994 (111s)
+epoch 1: train_loss=1.2215 val_f1=0.4933 val_acc=0.5075 (100s)
+epoch 2: train_loss=0.9980 val_f1=0.5855 val_acc=0.6006 (99s)
+epoch 3: train_loss=0.7632 val_f1=0.7990 val_acc=0.8118 (109s)
+epoch 4: train_loss=0.6308 val_f1=0.8795 val_acc=0.8869 (111s)
+epoch 5: train_loss=0.6091 val_f1=0.9290 val_acc=0.9309 (109s)
+epoch 6: train_loss=0.5836 val_f1=0.9217 val_acc=0.9259 (103s)
+epoch 7: train_loss=0.5737 val_f1=0.9483 val_acc=0.9510 (104s)
+epoch 8: train_loss=0.5659 val_f1=0.9385 val_acc=0.9419 (103s)
+epoch 9: train_loss=0.5517 val_f1=0.9349 val_acc=0.9389 (104s)
+epoch 10: train_loss=0.5515 val_f1=0.9484 val_acc=0.9510 (92s)
+epoch 11: train_loss=0.5485 val_f1=0.9439 val_acc=0.9469 (68s)
+epoch 12: train_loss=0.5486 val_f1=0.9526 val_acc=0.9550 (100s)
+epoch 13: train_loss=0.5461 val_f1=0.9529 val_acc=0.9550 (103s)
+epoch 14: train_loss=0.5431 val_f1=0.9516 val_acc=0.9540 (101s)
+epoch 15: train_loss=0.5394 val_f1=0.9520 val_acc=0.9550 (103s)
+epoch 16: train_loss=0.5379 val_f1=0.9535 val_acc=0.9560 (105s)
+epoch 17: train_loss=0.5362 val_f1=0.9524 val_acc=0.9550 (101s)
+epoch 18: train_loss=0.5346 val_f1=0.9555 val_acc=0.9580 (97s)
+epoch 19: train_loss=0.5344 val_f1=0.9566 val_acc=0.9590 (99s)
+epoch 20: train_loss=0.5321 val_f1=0.9503 val_acc=0.9530 (93s)
+epoch 21: train_loss=0.5315 val_f1=0.9565 val_acc=0.9590 (86s)
+epoch 22: train_loss=0.5316 val_f1=0.9554 val_acc=0.9580 (99s)
+epoch 23: train_loss=0.5311 val_f1=0.9501 val_acc=0.9530 (97s)
+epoch 24: train_loss=0.5306 val_f1=0.9553 val_acc=0.9580 (99s)
+best val macro-F1: 0.9566  ->  artifacts/checkpoints/mobilenetv3_large_seed1.pt
+device: cuda
+images: {'train': 6081, 'val': 999, 'test': 1189}
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+epoch 0: train_loss=2.4051 val_f1=0.3363 val_acc=0.3664 (105s)
+epoch 1: train_loss=1.2851 val_f1=0.5130 val_acc=0.5315 (98s)
+epoch 2: train_loss=1.0343 val_f1=0.5746 val_acc=0.5986 (96s)
+epoch 3: train_loss=0.7739 val_f1=0.7872 val_acc=0.8018 (102s)
+epoch 4: train_loss=0.6310 val_f1=0.8502 val_acc=0.8599 (98s)
+epoch 5: train_loss=0.6062 val_f1=0.8899 val_acc=0.9009 (99s)
+epoch 6: train_loss=0.5748 val_f1=0.9057 val_acc=0.9159 (100s)
+epoch 7: train_loss=0.5799 val_f1=0.9232 val_acc=0.9299 (99s)
+epoch 8: train_loss=0.5650 val_f1=0.9221 val_acc=0.9299 (101s)
+epoch 9: train_loss=0.5608 val_f1=0.9321 val_acc=0.9369 (99s)
+epoch 10: train_loss=0.5535 val_f1=0.9343 val_acc=0.9399 (100s)
+epoch 11: train_loss=0.5472 val_f1=0.9398 val_acc=0.9449 (558s)
+epoch 12: train_loss=0.5498 val_f1=0.9481 val_acc=0.9510 (92s)
+epoch 13: train_loss=0.5447 val_f1=0.9468 val_acc=0.9510 (103s)
+epoch 14: train_loss=0.5367 val_f1=0.9473 val_acc=0.9510 (101s)
+epoch 15: train_loss=0.5396 val_f1=0.9501 val_acc=0.9530 (101s)
+epoch 16: train_loss=0.5364 val_f1=0.9511 val_acc=0.9540 (100s)
+epoch 17: train_loss=0.5369 val_f1=0.9509 val_acc=0.9540 (103s)
+epoch 18: train_loss=0.5347 val_f1=0.9498 val_acc=0.9530 (100s)
+epoch 19: train_loss=0.5340 val_f1=0.9495 val_acc=0.9530 (99s)
+epoch 20: train_loss=0.5331 val_f1=0.9488 val_acc=0.9520 (64s)
+epoch 21: train_loss=0.5312 val_f1=0.9483 val_acc=0.9520 (63s)
+epoch 22: train_loss=0.5321 val_f1=0.9496 val_acc=0.9530 (63s)
+early stopping
+best val macro-F1: 0.9511  ->  artifacts/checkpoints/mobilenetv3_large_seed2.pt
+device: cuda
+images: {'train': 6081, 'val': 999, 'test': 1189}
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+epoch 0: train_loss=2.1701 val_f1=0.4172 val_acc=0.4284 (61s)
+epoch 1: train_loss=1.2420 val_f1=0.5506 val_acc=0.5576 (59s)
+epoch 2: train_loss=0.9991 val_f1=0.6127 val_acc=0.6206 (59s)
+epoch 3: train_loss=0.7606 val_f1=0.8545 val_acc=0.8619 (66s)
+epoch 4: train_loss=0.6283 val_f1=0.9091 val_acc=0.9129 (63s)
+epoch 5: train_loss=0.5920 val_f1=0.9235 val_acc=0.9279 (64s)
+epoch 6: train_loss=0.5854 val_f1=0.9371 val_acc=0.9409 (63s)
+epoch 7: train_loss=0.5760 val_f1=0.9391 val_acc=0.9419 (63s)
+epoch 8: train_loss=0.5664 val_f1=0.9454 val_acc=0.9479 (76s)
+epoch 9: train_loss=0.5604 val_f1=0.9488 val_acc=0.9510 (97s)
+epoch 10: train_loss=0.5535 val_f1=0.9528 val_acc=0.9550 (100s)
+epoch 11: train_loss=0.5486 val_f1=0.9478 val_acc=0.9499 (99s)
+epoch 12: train_loss=0.5488 val_f1=0.9488 val_acc=0.9510 (101s)
+epoch 13: train_loss=0.5414 val_f1=0.9551 val_acc=0.9570 (100s)
+epoch 14: train_loss=0.5408 val_f1=0.9539 val_acc=0.9560 (99s)
+epoch 15: train_loss=0.5381 val_f1=0.9533 val_acc=0.9550 (100s)
+epoch 16: train_loss=0.5355 val_f1=0.9539 val_acc=0.9560 (95s)
+epoch 17: train_loss=0.5370 val_f1=0.9539 val_acc=0.9560 (61s)
+epoch 18: train_loss=0.5342 val_f1=0.9551 val_acc=0.9570 (61s)
+epoch 19: train_loss=0.5314 val_f1=0.9539 val_acc=0.9560 (61s)
+early stopping
+best val macro-F1: 0.9551  ->  artifacts/checkpoints/mobilenetv3_large_seed3.pt
+(.venv) PS C:\Users\My Pc\Downloads\scalp_cv\scalp_cv> python -m src.train --config configs/baseline_resnet50.yaml --seed 1
+device: cuda
+images: {'train': 6081, 'val': 999, 'test': 1189}
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+epoch 0: train_loss=1.8355 val_f1=0.4790 val_acc=0.4955 (64s)
+epoch 1: train_loss=1.3854 val_f1=0.5449 val_acc=0.5646 (64s)
+epoch 2: train_loss=1.1906 val_f1=0.5891 val_acc=0.6046 (64s)
+epoch 3: train_loss=0.8741 val_f1=0.8068 val_acc=0.8158 (80s)
+epoch 4: train_loss=0.6813 val_f1=0.8771 val_acc=0.8819 (80s)
+epoch 5: train_loss=0.6247 val_f1=0.8998 val_acc=0.9059 (78s)
+epoch 6: train_loss=0.5961 val_f1=0.9257 val_acc=0.9299 (115s)
+epoch 7: train_loss=0.5796 val_f1=0.9241 val_acc=0.9289 (111s)
+epoch 8: train_loss=0.5710 val_f1=0.9318 val_acc=0.9359 (117s)
+epoch 9: train_loss=0.5613 val_f1=0.9339 val_acc=0.9379 (118s)
+epoch 10: train_loss=0.5591 val_f1=0.9433 val_acc=0.9469 (116s)
+epoch 11: train_loss=0.5543 val_f1=0.9453 val_acc=0.9479 (115s)
+epoch 12: train_loss=0.5482 val_f1=0.9394 val_acc=0.9439 (119s)
+epoch 13: train_loss=0.5477 val_f1=0.9458 val_acc=0.9489 (117s)
+epoch 14: train_loss=0.5463 val_f1=0.9418 val_acc=0.9459 (118s)
+epoch 15: train_loss=0.5448 val_f1=0.9457 val_acc=0.9489 (117s)
+epoch 16: train_loss=0.5427 val_f1=0.9421 val_acc=0.9459 (115s)
+epoch 17: train_loss=0.5414 val_f1=0.9430 val_acc=0.9469 (116s)
+epoch 18: train_loss=0.5411 val_f1=0.9432 val_acc=0.9469 (115s)
+epoch 19: train_loss=0.5398 val_f1=0.9415 val_acc=0.9449 (116s)
+early stopping
+best val macro-F1: 0.9458  ->  artifacts/checkpoints/resnet50_seed1.pt
+(.venv) PS C:\Users\My Pc\Downloads\scalp_cv\scalp_cv> foreach ($s in 1,2,3) {
+>>   python -m src.evaluate --model resnet50 --ckpt artifacts/checkpoints/resnet50_seed$s.pt --name resnet50_seed$s
