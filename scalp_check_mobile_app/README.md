@@ -94,7 +94,6 @@ then through the app. The top answer should match, and the "out of 100" numbers 
 ## 7. Things to fill in
 
 In `src/content.js`:
-- `APP.course` (course and instructor).
 - `APP.accuracyOutOf100`: your final test accuracy as a whole number (shown in About → "How accurate is it?").
 - The condition descriptions: only seborrheic dermatitis has been checked against sources. **Have the other nine reviewed.**
 

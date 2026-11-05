@@ -9,7 +9,6 @@ export const APP = {
     { name: 'Elvie May P. Mara', title: 'Model Training Lead', role: 'Trained and tested the model', photo: 'team/elvie.jpg' },
     { name: 'Baberose I. Silmaro', title: 'App Design Lead', role: 'Designed and built the app', photo: 'team/baberose.jpg' },
   ],
-  course: '[Course] · [Instructor]',
   // Set to a number (e.g. 86) once testing is finished. null shows a dash.
   accuracyOutOf100: null,
 };

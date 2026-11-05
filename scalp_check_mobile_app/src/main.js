@@ -344,7 +344,7 @@ function About() {
         <div class="team">${APP.team.map((m) => `<div class="prof">
           <div class="av photo" role="img" aria-label="Photo of ${esc(m.name)}">${icon('user', 26)}<span style="background-image:url('${m.photo}')"></span></div>
           <div class="n">${esc(m.name)}</div><div class="role">${esc(m.title)}</div><div class="small">${esc(m.role)}</div></div>`).join('')}</div>
-        <div class="small" style="margin-top:8px">${esc(APP.course)}</div></section>
+</section>
       <section class="card"><div class="lab">Common questions</div>
         <div class="faq">${FAQ().map(([q, a], i) => `
           <button class="faq-q" aria-expanded="false" aria-controls="fa${i}"><span>${q}</span>${icon('down', 20, '#4F6670')}</button>
