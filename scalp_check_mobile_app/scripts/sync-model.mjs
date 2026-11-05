@@ -26,7 +26,9 @@ let chosen = 'model_fp32.onnx';
 try {
   chosen = JSON.parse(readFileSync(join(artifacts, 'preprocess_config.json'), 'utf8')).model_file || chosen;
 } catch {}
-const FILES = [chosen, ...CONFIGS];
+// The optional "is this a scalp photo?" gate (src/train_gate.py), if it has been trained.
+const GATE = existsSync(join(artifacts, 'gate_config.json')) ? ['gate.onnx', 'gate_config.json'] : [];
+const FILES = [chosen, ...CONFIGS, ...GATE];
 
 mkdirSync(dest, { recursive: true });
 let copied = 0;

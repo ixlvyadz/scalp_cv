@@ -4,9 +4,10 @@
 
 export const APP = {
   // Fill these in.
+  // Photos: put them at public/team/elvie.jpg and public/team/baberose.jpg.
   team: [
-    { name: '[Member A name]', role: 'Photos, learning and testing' },
-    { name: '[Member B name]', role: 'App design and setup' },
+    { name: 'Elvie May P. Mara', title: 'Model Training Lead', role: 'Trained and tested the model', photo: 'team/elvie.jpg' },
+    { name: 'Baberose I. Silmaro', title: 'App Design Lead', role: 'Designed and built the app', photo: 'team/baberose.jpg' },
   ],
   course: '[Course] · [Instructor]',
   // Set to a number (e.g. 86) once testing is finished. null shows a dash.

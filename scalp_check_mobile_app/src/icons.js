@@ -11,6 +11,7 @@ const P = {
   next: '<path d="M9 5l7 7-7 7"/>',
   down: '<path d="M6 9l6 6 6-6"/>',
   user: '<circle cx="12" cy="8" r="4"/><path d="M4 21c1-5 5-7 8-7s7 2 8 7"/>',
+  flip: '<path d="M4 8h3l2-3h6l2 3h3v11H4z"/><path d="M9.5 12.5a2.8 2.8 0 0 1 4.9-1.6M14.5 14a2.8 2.8 0 0 1-4.9 1.6"/><path d="M14.6 9.5v1.6H13M9.4 17v-1.6H11"/>',
 };
 
 export function icon(name, size = 24, color = '#0F6E7A') {

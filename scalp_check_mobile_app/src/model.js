@@ -21,8 +21,9 @@ ort.env.wasm.numThreads = 1; // the Android WebView cannot use multi-threaded WA
 ort.env.logLevel = 'error';
 
 let session = null;
+let gate = null; // optional "is this a scalp photo?" model (artifacts/gate.onnx)
 let loading = null;
-export const info = { modelFile: null, labels: [], pre: null, temperature: 1, threshold: DEFAULT_THRESHOLD, warnings: [], layout: 'NCHW' };
+export const info = { gateFile: null, gateThreshold: null, modelFile: null, labels: [], pre: null, temperature: 1, threshold: DEFAULT_THRESHOLD, warnings: [], layout: 'NCHW' };
 
 const url = (f) => new URL('models/' + f, document.baseURI).href;
 async function getJson(f) {
@@ -110,6 +111,7 @@ export function loadModel() {
       }
     }
     if (!session) throw new Error('No model could be loaded. ' + info.warnings.join(' '));
+    await loadGate();
     const meta = session.inputMetadata?.[0];
     const dims = meta?.shape || meta?.dimensions;
     if (Array.isArray(dims) && dims.length === 4 && dims[3] === 3) info.layout = 'NHWC';
@@ -117,6 +119,34 @@ export function loadModel() {
   })();
   loading.catch(() => { loading = null; });
   return loading;
+}
+
+// Optional gate trained by src/train_gate.py. Without it, every photo counts as a scalp photo.
+async function loadGate() {
+  try {
+    const r = await fetch(url('gate_config.json'));
+    if (!r.ok) return;
+    const cfg = await r.json();
+    if (cfg.img_size !== info.pre.size || cfg.resize !== info.pre.resize) {
+      info.warnings.push('Gate uses different preprocessing from the classifier; gate skipped.');
+      return;
+    }
+    gate = { session: await ort.InferenceSession.create(url(cfg.model_file || 'gate.onnx'), { executionProviders: ['wasm'] }), cfg };
+    info.gateFile = cfg.model_file || 'gate.onnx';
+    info.gateThreshold = cfg.threshold;
+  } catch (e) {
+    info.warnings.push(`Gate could not load: ${e.message || e}`);
+  }
+}
+
+async function scalpScore(data) {
+  if (!gate) return null;
+  const { size } = info.pre;
+  const out = await gate.session.run({ [gate.session.inputNames[0]]: new ort.Tensor('float32', data, [1, 3, size, size]) });
+  const z = Array.from(out[gate.session.outputNames[0]].data);
+  const m = Math.max(...z);
+  const e = z.map((v) => Math.exp(v - m));
+  return e[gate.cfg.scalp_index ?? 1] / e.reduce((a, b) => a + b, 0);
 }
 
 // Crop/resize the photo exactly like the training evaluation transform.
@@ -182,7 +212,9 @@ export async function predict(source) {
   await loadModel();
   const canvas = prepareCanvas(source);
   const data = toTensorData(canvas);
+  const gateScore = await scalpScore(data);
+  const isScalp = gateScore == null || gateScore >= gate.cfg.threshold;
   const probs = await runTensor(data);
   const ranked = probs.map((p, i) => ({ label: info.labels[i] ?? `Class ${i}`, index: i, p })).sort((a, b) => b.p - a.p);
-  return { canvas, data, probs, top: ranked.slice(0, 3), sure: ranked[0].p >= info.threshold, threshold: info.threshold };
+  return { canvas, data, probs, top: ranked.slice(0, 3), sure: ranked[0].p >= info.threshold, threshold: info.threshold, isScalp, gateScore };
 }

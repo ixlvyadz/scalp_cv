@@ -32,7 +32,7 @@ It writes `artifacts/gate.onnx`, `artifacts/gate_config.json` and `reports/gate_
 - `src/predict.py` now also returns `is_scalp` and `scalp_score` (via `src/gate.py`).
   If `artifacts/gate.onnx` is missing, `is_scalp` is always `True`, so nothing else changes.
 - `app/ui.py` (Streamlit) stops with "This does not look like a photo of the scalp or hair".
-- The Android app (`mobile_app/`) copies the gate automatically and shows
+- The Android app (`scalp_check_mobile_app/`) copies the gate automatically and shows
   "This doesn't look like a scalp photo".
 
 ## Check before you rely on it

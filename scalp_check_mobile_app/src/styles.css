@@ -163,6 +163,23 @@ img { display: block; max-width: 100%; }
 @keyframes spin { to { transform: rotate(360deg); } }
 @media (prefers-reduced-motion: reduce) { .spinner { animation-duration: 3s; } }
 
+/* Live camera */
+.frame video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; background: #0b2a30; }
+.frame video.mirror { transform: scaleX(-1); }
+.frame .ph { flex-direction: column; gap: 8px; line-height: 1.4; font-size: 13px; background: var(--photo); }
+.frame .ph[hidden] { display: none; }
+.flip {
+  position: absolute; left: 50%; bottom: 12px; transform: translateX(-50%); z-index: 2; width: 44px; height: 44px; border-radius: 50%;
+  border: 1px solid rgba(255,255,255,.5); background: rgba(11,85,96,.55);
+  display: flex; align-items: center; justify-content: center; padding: 0;
+}
+.frame .k { z-index: 1; }
+
+/* Team photos */
+.av.photo { position: relative; overflow: hidden; }
+.av.photo span { position: absolute; inset: 0; background: center/cover no-repeat; }
+.prof .role { font-size: 12px; font-weight: 600; color: var(--teal); }
+
 /* ---------- Result ---------- */
 .res-name { font-size: 24px; font-weight: 700; margin: 4px 0; }
 .sure-row { display: flex; justify-content: space-between; font-size: 14px; margin-top: 14px; }

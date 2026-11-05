@@ -3,7 +3,8 @@
 The phone app for the `scalp_cv` project. It runs the trained model **on the phone**:
 no internet, no server, and photos are never saved or sent anywhere.
 
-- **Screens:** Home, Scan, Result, "We are not sure", Why we think so, Learn (list and detail), About.
+- **Screens:** Home, Scan (live camera), Result, "We are not sure", "This doesn't look like a scalp photo", Why we think so, Learn (list and detail), About.
+- **Not-a-scalp check:** if `artifacts/gate.onnx` exists (trained by `src/train_gate.py`, see `GATE.md`), photos that aren't of the scalp or hair are rejected before the classifier runs.
 - **Model:** loads the file named by `model_file` in `artifacts/preprocess_config.json`. In this repo that is `model_fp32.onnx`, because the export step found INT8 lost about 12 macro-F1 points (see `reports/export_benchmark.csv`).
 - **Built with:** Vite (plain HTML/CSS/JS) + ONNX Runtime Web, packaged as an Android app with Capacitor.
 
@@ -93,12 +94,11 @@ then through the app. The top answer should match, and the "out of 100" numbers 
 ## 7. Things to fill in
 
 In `src/content.js`:
-- `APP.team` names and roles, and `APP.course`.
+- `APP.course` (course and instructor).
 - `APP.accuracyOutOf100`: your final test accuracy as a whole number (shown in About → "How accurate is it?").
 - The condition descriptions: only seborrheic dermatitis has been checked against sources. **Have the other nine reviewed.**
 
-Optional photos for the Learn tab: add `public/samples/<key>.jpg` (for example `public/samples/psoriasis.jpg`),
-only using images you have permission to use. Keys are listed in `src/content.js`.
+Photos are in `public/samples/<key>.jpg` (Learn tab, one per condition) and `public/team/` (Meet the Team).
 
 ## 8. "Why we think so" screen
 

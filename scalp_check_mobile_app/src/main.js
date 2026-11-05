@@ -80,16 +80,67 @@ function qualityPills(q) {
   return p(q.clear, 'Clear', 'Blurry') + p(q.bright, 'Bright', 'Too dark') + `<span class="pill tip">Close</span>`;
 }
 
+// ---------- Live camera ----------
+const cam = { stream: null, facing: 'environment', timer: null, failed: false };
+
+function stopCamera() {
+  clearInterval(cam.timer); cam.timer = null;
+  cam.stream?.getTracks().forEach((t) => t.stop());
+  cam.stream = null;
+}
+
+async function startCamera() {
+  stopCamera();
+  const video = app.querySelector('#live');
+  if (!video) return;
+  try {
+    if (!navigator.mediaDevices?.getUserMedia) throw new Error('Camera not supported');
+    cam.stream = await navigator.mediaDevices.getUserMedia({
+      video: { facingMode: { ideal: cam.facing }, width: { ideal: 1920 }, height: { ideal: 1080 } }, audio: false,
+    });
+    if (!app.querySelector('#live')) return stopCamera(); // user left the screen meanwhile
+    video.srcObject = cam.stream;
+    video.classList.toggle('mirror', cam.facing === 'user');
+    await video.play().catch(() => {});
+    cam.failed = false;
+    app.querySelector('#camoff')?.remove();
+    // Live photo checks: update the Clear / Bright pills while aiming.
+    cam.timer = setInterval(() => {
+      if (!video.videoWidth) return;
+      const pills = app.querySelector('#qpills');
+      if (pills) pills.innerHTML = qualityPills(checkQuality(video));
+    }, 800);
+  } catch (e) {
+    cam.failed = true;
+    const off = app.querySelector('#camoff');
+    if (off) off.hidden = false;
+  }
+}
+
+function grabFrame() {
+  const v = app.querySelector('#live');
+  if (!v || !v.videoWidth) return null;
+  const c = document.createElement('canvas');
+  c.width = v.videoWidth; c.height = v.videoHeight;
+  const ctx = c.getContext('2d');
+  if (cam.facing === 'user') { ctx.translate(c.width, 0); ctx.scale(-1, 1); }
+  ctx.drawImage(v, 0, 0);
+  return c;
+}
+
 function Scan() {
-  const inner = state.photo
-    ? `<img src="${state.photo.toDataURL('image/jpeg', 0.9)}" alt="Your photo">${state.busy ? `<div class="busy"><div class="spinner"></div>Looking at your photo…</div>` : ''}`
-    : `<div class="ph">${icon('cam', 40, 'rgba(255,255,255,.85)')}</div>`;
+  const live = !state.photo;
+  const inner = live
+    ? `<video id="live" autoplay playsinline muted aria-label="Camera view"></video>
+       <div class="ph" id="camoff" hidden>${icon('cam', 40, 'rgba(255,255,255,.85)')}<span>Camera not available.<br>Use “Choose from gallery”.</span></div>
+       <button class="flip" id="flip" aria-label="Switch camera">${icon('flip', 22, '#fff')}</button>`
+    : `<img src="${state.photo.toDataURL('image/jpeg', 0.9)}" alt="Your photo">${state.busy ? `<div class="busy"><div class="spinner"></div>Looking at your photo…</div>` : ''}`;
   page(`
     ${innerHeader('New scan', 'Take a clear photo of the area', '#/home')}
     <div class="body">
       <div style="font-size:15px;color:var(--slate)">Place the affected area inside the frame.</div>
       ${frame(300, inner)}
-      <div class="pills">${qualityPills(state.quality)}</div>
+      <div class="pills" id="qpills">${qualityPills(state.quality)}</div>
       ${state.error ? `<div class="err">${esc(state.error)}</div>` : ''}
       <button class="btn" id="take" ${state.busy ? 'disabled' : ''}>Take photo</button>
       <button class="btn alt" id="pick" ${state.busy ? 'disabled' : ''}>Choose from gallery</button>
@@ -97,10 +148,16 @@ function Scan() {
       <input type="file" id="fcam" accept="image/*" capture="environment" hidden>
       <input type="file" id="fgal" accept="image/*" hidden>
     </div>`, 'Scan');
-  const cam = app.querySelector('#fcam'), gal = app.querySelector('#fgal');
-  app.querySelector('#take').onclick = () => cam.click();
+  const fcam = app.querySelector('#fcam'), gal = app.querySelector('#fgal');
+  app.querySelector('#take').onclick = () => {
+    const shot = live && !cam.failed ? grabFrame() : null;
+    if (shot) { stopCamera(); analyse(shot); } else fcam.click(); // fall back to the phone's camera app
+  };
   app.querySelector('#pick').onclick = () => gal.click();
-  cam.onchange = gal.onchange = (e) => e.target.files?.[0] && analyse(e.target.files[0]);
+  fcam.onchange = gal.onchange = (e) => { if (e.target.files?.[0]) { stopCamera(); analyse(e.target.files[0]); } };
+  const flip = app.querySelector('#flip');
+  if (flip) flip.onclick = () => { cam.facing = cam.facing === 'user' ? 'environment' : 'user'; startCamera(); };
+  if (live) startCamera();
 }
 
 async function analyse(file) {
@@ -108,7 +165,9 @@ async function analyse(file) {
   state.busy = true;
   try {
     await loadModel();
-    const bmp = await createImageBitmap(file, { imageOrientation: 'from-image' }).catch(() => createImageBitmap(file));
+    const bmp = file instanceof HTMLCanvasElement
+      ? file
+      : await createImageBitmap(file, { imageOrientation: 'from-image' }).catch(() => createImageBitmap(file));
     const res = await predict(bmp);
     bmp.close?.();
     state.photo = res.canvas;
@@ -129,6 +188,7 @@ async function analyse(file) {
 function Result() {
   const r = state.result;
   if (!r) return (location.hash = '#/scan');
+  if (r.isScalp === false) return NotScalp();
   if (!r.sure) return NotSure();
   const best = conditionForLabel(r.top[0].label);
   const others = r.top.slice(1).map((t) => ({ c: conditionForLabel(t.label), p: t.p }));
@@ -162,6 +222,21 @@ function Result() {
     </div>`, 'Scan');
 }
 
+function NotScalp() {
+  page(`
+    ${innerHeader('Your result', 'We could not check this photo', '#/scan')}
+    <div class="body">
+      <div class="ns-top"><div class="ns-ic">${icon('scan', 36, '#7A5200')}</div>
+        <h2>This doesn't look like a scalp photo</h2>
+        <p>Scalp Check only works on close photos of the scalp or hair. Please try again with the affected area filling the frame.</p></div>
+      <section class="card"><div class="lab">Tips for a good photo</div>
+        <div class="reasons"><div>${CHECK}Part the hair so the skin is visible</div><div>${CHECK}Hold the phone close to the area</div><div>${CHECK}Use natural light</div></div></section>
+      <button class="btn" data-go="#/scan" data-reset>Retake photo</button>
+      <button class="btn alt" data-go="#/scan" data-reset data-open="gallery">Choose another photo</button>
+      <div class="center small">${NOTE}</div>
+    </div>`, 'Scan');
+}
+
 function NotSure() {
   const q = state.quality || {};
   const reasons = [];
@@ -177,7 +252,7 @@ function NotSure() {
         <p>We cannot give a reliable answer from this photo. If you are worried, please see a skin doctor.</p></div>
       <section class="card"><div class="lab">Why this may have happened</div>
         <div class="reasons">${reasons.map((t) => `<div>${WARN}${esc(t)}</div>`).join('')}</div></section>
-      <button class="btn" data-go="#/scan" data-reset data-open="camera">Retake photo</button>
+      <button class="btn" data-go="#/scan" data-reset>Retake photo</button>
       <button class="btn alt" data-go="#/scan" data-reset data-open="gallery">Choose another photo</button>
       <div class="center small">${NOTE}</div>
     </div>`, 'Scan');
@@ -263,10 +338,12 @@ function About() {
     ${tabHeader('About', 'Scalp Check, your privacy and the team')}
     <div class="body">
       <section class="card"><div class="lab">What is Scalp Check?</div>
-        <div style="font-size:14px;margin-top:8px;line-height:1.45">A simple app that looks at a photo of your scalp or hair and tells you which of ten common conditions it most looks like. It also shows where it looked, and tells you honestly when it is not sure.</div></section>
+        <div style="font-size:14px;margin-top:8px;line-height:1.45">A simple application that analyzes photos of the scalp or hair and identifies which of ten common conditions the image most closely resembles. It highlights the areas that contributed to the result and indicates when the available information is not sufficient for a confident assessment. The application is intended only to provide general guidance and does not serve as a formal or official medical diagnosis. Users should consult a qualified healthcare professional for proper evaluation and diagnosis.</div></section>
       <section class="card">${tipRow('lock', 'Your privacy', 'Your photos are never saved.')}</section>
       <section class="card"><div class="lab">Meet the team</div>
-        <div class="team">${APP.team.map((m) => `<div class="prof"><div class="av">${icon('user', 26)}</div><div class="n">${esc(m.name)}</div><div class="small">${esc(m.role)}</div></div>`).join('')}</div>
+        <div class="team">${APP.team.map((m) => `<div class="prof">
+          <div class="av photo" role="img" aria-label="Photo of ${esc(m.name)}">${icon('user', 26)}<span style="background-image:url('${m.photo}')"></span></div>
+          <div class="n">${esc(m.name)}</div><div class="role">${esc(m.title)}</div><div class="small">${esc(m.role)}</div></div>`).join('')}</div>
         <div class="small" style="margin-top:8px">${esc(APP.course)}</div></section>
       <section class="card"><div class="lab">Common questions</div>
         <div class="faq">${FAQ().map(([q, a], i) => `
@@ -287,7 +364,7 @@ async function Check() {
   try {
     await loadModel();
     document.getElementById('ck').innerHTML = `<pre style="white-space:pre-wrap;font-size:12px;margin:0">${esc(JSON.stringify({
-      modelFile: info.modelFile, layout: info.layout, preprocess: info.pre, temperature: info.temperature,
+      modelFile: info.modelFile, gateFile: info.gateFile ?? 'none (every photo counts as a scalp photo)', gateThreshold: info.gateThreshold, layout: info.layout, preprocess: info.pre, temperature: info.temperature,
       threshold: info.threshold, labels: info.labels, matchedTo: info.labels.map((l) => conditionForLabel(l).name), warnings: info.warnings,
     }, null, 2))}</pre>`;
   } catch (e) {
@@ -298,6 +375,7 @@ async function Check() {
 // ---------- Router ----------
 function route() {
   const h = location.hash || '#/home';
+  if (h !== '#/scan') stopCamera();
   const [, a, b] = h.split('/');
   switch (a) {
     case 'scan': return Scan();
