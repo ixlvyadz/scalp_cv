@@ -33,6 +33,10 @@ if f:
     img = Image.open(io.BytesIO(raw))
     st.image(img, caption="Your photo")
     r = get_result(raw)
+    if not r.get("is_scalp", True):
+        st.error("This does not look like a photo of the scalp or hair. "
+                 "Please take a close photo of the affected area.")
+        st.stop()
     if r["uncertain"]:
         st.error("Uncertain. The model is not confident about this photo, "
                  "so please consult a professional or try a clearer photo.")

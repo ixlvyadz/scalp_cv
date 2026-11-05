@@ -6,6 +6,8 @@ import numpy as np
 import onnxruntime as ort
 from PIL import Image, ImageOps
 
+from src.gate import scalp_score
+
 ART = Path(__file__).resolve().parents[1] / "artifacts"
 
 
@@ -40,6 +42,7 @@ def preprocess(img, cfg=None):
 def predict(img, top_k=3):
     cfg = get_cfg()
     x = preprocess(ImageOps.exif_transpose(img), cfg)         # phone photos carry a rotation tag
+    gate, is_scalp = scalp_score(x)                           # gate uses the same 224 crop
     logits = get_session().run(None, {"image": x})[0][0].astype(np.float64)
     z = logits / cfg["temperature"]
     p = np.exp(z - z.max())
@@ -47,4 +50,6 @@ def predict(img, top_k=3):
     order = np.argsort(-p)[:top_k]
     return {"top": [(cfg["classes"][i], float(p[i])) for i in order],
             "confidence": float(p.max()),
-            "uncertain": bool(p.max() < cfg["reject_threshold"])}
+            "uncertain": bool(p.max() < cfg["reject_threshold"]),
+            "is_scalp": bool(is_scalp),                          # False: not a scalp/hair photo
+            "scalp_score": gate}
