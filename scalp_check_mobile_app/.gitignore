@@ -1,0 +1,4 @@
+node_modules/
+dist/
+# Copied from ../artifacts by `npm run sync-model` (the repo already tracks the originals)
+public/models/

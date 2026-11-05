@@ -1,0 +1,14 @@
+{
+  "appId": "com.scalpcheck.app",
+  "appName": "Scalp Check",
+  "webDir": "dist",
+  "android": {
+    "backgroundColor": "#F3F7F8"
+  },
+  "plugins": {
+    "SystemBars": {
+      "insetsHandling": "css",
+      "style": "DARK"
+    }
+  }
+}

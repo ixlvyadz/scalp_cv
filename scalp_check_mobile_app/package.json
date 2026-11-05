@@ -1,0 +1,28 @@
+{
+  "name": "scalp-check",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Scalp Check: on-device hair and scalp condition screening app (Capacitor + ONNX Runtime Web).",
+  "scripts": {
+    "sync-model": "node scripts/sync-model.mjs",
+    "predev": "npm run sync-model",
+    "dev": "vite --host",
+    "prebuild": "npm run sync-model",
+    "build": "vite build",
+    "preview": "vite preview --host",
+    "icons": "capacitor-assets generate --android",
+    "android": "npm run build && npx cap sync android && npx cap open android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.6.0",
+    "@capacitor/core": "^8.6.0",
+    "@fontsource/inter": "^5.3.0",
+    "onnxruntime-web": "^1.31.1"
+  },
+  "devDependencies": {
+    "@capacitor/assets": "^4.0.0",
+    "@capacitor/cli": "^8.6.0",
+    "vite": "^8.3.6"
+  }
+}

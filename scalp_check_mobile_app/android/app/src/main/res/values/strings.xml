@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Scalp Check</string>
+    <string name="title_activity_main">Scalp Check</string>
+    <string name="package_name">com.scalpcheck.app</string>
+    <string name="custom_url_scheme">com.scalpcheck.app</string>
+</resources>
